@@ -1,39 +1,78 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# **Photography Journey**
 
-Welcome,
+Information about the website .
+Website image
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## **Existing features**
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+### **Navigation Bar**
 
-## Codeanywhere Reminders
+•	This is featured on all of the three pages of the website. The responsive navigation bar allows the user to move between the different pages easily without having to use the back button.
+•	It contains links to the Logo of the page, the Home page, Gallery page and the Contact page. Furthermore, when the Logo is clicked it takes the user to the home page.
+Navigation bar image
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+### **The landing page image**
 
-`python3 -m http.server`
+•	The hero image contains ….
+•	Add some quote to attach the user attention
+HERO IMAGE
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+### **The home page**
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+The home page (Explain the sections)
+•	Section 1
+•	Section 2….
 
-`http_server`
+### **Types of meditation page**
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+•	The contents of this page familiarize the user to the different types of meditation and explain how the user can practice each meditation.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+### **The contact page**
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+•	Write about the contact page
 
-To log into the Heroku toolbelt CLI:
+### **The footer section**
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+•	This section contains clickable links to Facebook, Instagram and whats app for contact
+•	The user can use this to see the gallery, portfolio or contact for a quote.
+Footer Image
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## **Testing**
 
----
+•	This page works on different browsers: Chrome, Microsoft Edge, Firefox.
+•	On smaller screen sizes the logo is located at the top of the navigation bar.
+•	I checked that the page is responsive, works and looks good on the standard screen sizes (ipad, MotoG4, iphone6/7/8, iphone5/SE and Galaxy S5) using the devtools device toolbar.
+•	I have checked that the above mentioned features work as expected, the form requires entry on each field, the email field accepts only email address and the checkbox requires that the user checks it before submission, and the submit button allows the user to submit feedback.
 
-Happy coding!
+### **Validator Testing**
+
+•	HTML
+o	Errors were detected when passing through the official W3C validator and they are corrected. There was a warning but it was not relevant to the indicated section of the code.
+ 		Validation links
+•	CSS
+o	Errors were detected when passing through the official (Jigsaw) validator and they are corrected.
+CSS validation
+
+## **Accessibility**
+
+### **Home page accessibility**
+
+### **Gallery page accessibility**
+
+### **Contact page accessibility**
+
+## **Unfixed bugs**
+
+No bugs were detected
+
+## **Deployment**
+
+•	The site was deployed to GitHub pages as follows:
+o	In the GitHub repository, navigate to the Settings tab
+o	From the source section drop-down menu, select the Master or Main Branch
+o	Once the master or main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+The live link can be found here:  
+
+## **Credits**
+
+### **Content**

@@ -111,6 +111,10 @@ main {
     background: none;
 }
 
+.language {
+    display: none;
+}
+
 /* Set the positions for the language buttons */
 .englishButton {
     right: 10px;

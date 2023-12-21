@@ -31,24 +31,25 @@
     />
     <!-- Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css" />
+    
   </head>
   <body>
     <!-- Header-->
     <header>
       <a href="index.html">
-        <h1 id="logo" class="english">Jornada da Fotografia</h1>
-        <h1 id="logo" class="portuguese">Jornada da Fotografia</h1>
+        <h1 id="logo" class="english language">Jornada da Fotografia</h1>
+        <h1 id="logo" class="portuguese language">Jornada da Fotografia</h1>
       </a>
       <input type="checkbox" id="nav-toggle" name="nav-toggle" />
       <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
       <nav>
-        <ul id="menu" class="english">
+        <ul id="menu" class="english language">
           <li><a href="index.html" class="active">Home</a></li>
           <li><a href="">About Us</a></li>
           <li><a href="portifolio.html">Portifolio</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
-        <ul id="menu" class="portuguese">
+        <ul id="menu" class="portuguese language">
           <li><a href="" class="active">Home</a></li>
           <li><a href="">Sobre</a></li>
           <li><a href="portifolio.html">Portifólio</a></li>
@@ -57,8 +58,8 @@
       </nav>
     </header>
     <!--Main Content-->
-    <main class="english">Main content</main>
-    <main class="portuguese">Conteudo principal</main>
+    <main class="english language">Main content</main>
+    <main class="portuguese language">Conteudo principal</main>
     <!--Footer-->
     <footer>
 <ul id="social-networks">
@@ -88,26 +89,35 @@
     </footer>
 
     <!-- JavaScript to change the page language-->
-    <script>
-      // Set the default language
-      document.addEventListener("DOMContentLoaded", function () {
-        changeLanguage("english");
-      });
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const savedLanguage = localStorage.getItem("selectedLanguage") || "english";
+        changeLanguage(savedLanguage);
+    });
 
-      function changeLanguage(selectedLanguage) {
+    function changeLanguage(selectedLanguage) {
+        // Save the language preference to localStorage
+        localStorage.setItem("selectedLanguage", selectedLanguage);
+
+        // Hide all language elements
+        document.querySelectorAll(".language").forEach((element) => {
+            element.style.display = "none";
+        });
+
         // Show only the selected language elements
         document.querySelectorAll("." + selectedLanguage).forEach((element) => {
-          element.style.display = "block";
+            element.style.display = "block";
         });
 
-        // Hide the elements of the other language
-        const otherLanguage =
-          selectedLanguage === "english" ? "portuguese" : "english";
-        document.querySelectorAll("." + otherLanguage).forEach((element) => {
-          element.style.display = "none";
+        // Update the active state of language buttons
+        document.querySelectorAll(".languageButton").forEach((button) => {
+            button.classList.remove("active");
         });
-      }
-    </script>
+
+        // Add the 'active' class to the clicked button
+        document.querySelector(`.${selectedLanguage}Button`).classList.add("active");
+    }
+</script>
     <!-- Use image elements for language selection -->
     <button
       class="languageButton englishButton"

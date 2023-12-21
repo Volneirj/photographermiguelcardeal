@@ -55,7 +55,7 @@ h1 {
 
 /* Header */
 header {
-    background-color: #fafafa;
+    background-color: rgb(243, 243, 243);
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -77,16 +77,18 @@ h1 {
     color: #252525;
 }
 
-
-
 #menu {
     font-size: 110%;
     letter-spacing: 2px;
     list-style-type: none;
+
 }
 
-#menu {
+#menu li {
     margin-bottom: 1em;
+    display: block;
+    /* You can remove this line; it's not necessary */
+    flex-direction: column;
 }
 
 .active {
@@ -97,7 +99,7 @@ h1 {
 
 nav {
     position: absolute;
-    background-color: #ffffff;
+    background-color: rgb(243, 243, 243);
     width: 100%;
     left: 0;
     padding: 0 1rem;

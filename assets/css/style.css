@@ -1,3 +1,6 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
     padding: 0;
@@ -5,19 +8,91 @@
     box-sizing: border-box;
 }
 
-/* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-
-/* Language Section */
-/* English styles */
-.english {
-    font-family: 'Arial', sans-serif;
+/* General styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+    color: #3a3a3a;
+    font-family: 'Lato', sans-serif;
 }
 
-/* Portuguese styles */
-.portuguese {
-    font-family: 'Arial', sans-serif;
+/* Header */
+header {
+    background-color: #ffffff;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    font-family: 'Brush Script MT', cursive;
+    letter-spacing: 2px;
+    color: #252525;
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 2px;
+    list-style-type: none;
+}
+
+#menu>li {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/* Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+    top: 100%;
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
+/* Main content */
+main {
+    background-color: lightblue;
+    /* Make main element take up any surplus space to push footer down */
+    flex: 1 0 auto;
+    margin-top: 42px;
+}
+
+/* Footer */
+footer {
+    background-color: orange;
 }
 
 /* Add styles for the language buttons */
@@ -40,126 +115,34 @@
     right: 55px;
 }
 
-/* General styles */
-body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    color: #3a3a3a;
-    font-family: 'Lato', sans-serif;
-}
-
-/* Header */
-header {
-    background-color: rgb(243, 243, 243);
-    padding: 0 1rem;
-    position: fixed;
-    z-index: 99;
-    width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-}
-
-header a {
-    text-decoration: none;
-    color: inherit;
-}
-
-
-h1 {
-    font-family: 'Oswald', sans-serif;
-    letter-spacing: 2px;
-    color: #252525;
-}
-
-/* Logo settings in case font changes */
-#logo {
-    font-family: 'Brush Script MT', cursive;
-}
-
-#menu {
-    font-size: 110%;
-    letter-spacing: 2px;
-    list-style-type: none;
-
-}
-
-#menu>li {
-    margin-bottom: 1em;
-}
-
-.active {
-    border-bottom: 1px solid #3a3a3a;
-}
-
-/*Navbar styles with dropdown toggle */
-
-nav {
-    position: absolute;
-    background-color: rgb(243, 243, 243);
-    width: 100%;
-    left: 0;
-    padding: 0.5rem 1rem;
-    box-shadow: 0px 2px 2px #3a3a3a;
-    display: none;
-    top: 100%;
-}
-
-/* Nav Toggle */
-#nav-toggle:checked~nav {
-    display: block;
-}
-
-#nav-toggle {
-    display: none;
-}
-
-.nav-toggle-label {
-    font-size: 2rem;
-}
-
-
-/* Main content */
-main {
-    background-color: lightblue;
-    /* Make main element take up any surplus space to push footer down */
-    flex: 1 0 auto;
-    margin-top: 42px;
-}
-
-/* Footer */
-footer {
-    background-color: orange;
-}
-
-/* Media query: Tablets and larger (720 and up)*/
-
-@media screen and (min-width: 720px) {
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
 
     /* Header */
-
-
-    header {
-        justify-content: space-around;
-    }
-
-
     nav {
         display: block;
         position: relative;
         box-shadow: none;
-        width: 50%;
-        left: 50px
+        width: fit-content;
+        padding-right: 1rem;
     }
 
     #menu {
         display: flex;
+        flex-direction: row;
+        /* Adicione esta linha */
     }
 
     #menu>li {
-        padding-left: 3rem;
+        display: inline-block;
+        padding-left: 1rem;
+        letter-spacing: 2px;
+        word-spacing: 10px;
+        flex: none;
+    }
+
+    #menu>li:last-child {
+        margin-right: 0;
     }
 
     .nav-toggle-label {
@@ -167,23 +150,21 @@ footer {
     }
 
     #logo {
-        font-size: 230%;
+        font-size: 250%;
         line-height: 75px;
         margin: 0 0.5rem;
     }
 
-
     /* Main content */
     main {
         /* Push main content down to accommodate larger header */
-        margin-top: 75px;
+        margin-top: 70px;
     }
+}
 
-    /* Media query: Tablets and larger (992 and up)*/
-
-    @media screen and (min-width: 992px) {
-        #menu a:hover {
-            border-bottom: 1px solid #3a3a3a;
-        }
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
     }
 }

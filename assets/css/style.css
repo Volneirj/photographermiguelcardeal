@@ -88,9 +88,23 @@ h1 {
     margin-bottom: 1em;
 }
 
-.active{
+.active {
     border-bottom: 1px solid #3a3a3a;
 }
+
+/*Navbar styles with dropdown toggle */
+
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0px 2px 2px #3a3a3a;
+    display: none;
+
+}
+
 /* Main content */
 main {
     background-color: lightblue;

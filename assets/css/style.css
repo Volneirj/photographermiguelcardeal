@@ -5,6 +5,8 @@
     box-sizing: border-box;
 }
 
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 /* Language Section */
 /* English styles */
@@ -25,20 +27,18 @@
     cursor: pointer;
     border: none;
     background: none;
-    margin-bottom: 10px;
 }
 
 /* Set the positions for the language buttons */
 .englishButton {
-    right: 80px;
-    /* Adjust the distance from the right side */
-    margin-right: 10px;
-    /* Add margin for spacing */
+    top: 10px;
+    right: 10px;
+
 }
 
 .portugueseButton {
-    right: 20px;
-    /* Adjust the distance from the right side */
+    top: 35px;
+    right: 10px;
 }
 
 

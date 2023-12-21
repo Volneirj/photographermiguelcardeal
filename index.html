@@ -59,17 +59,22 @@
     </button>
     <!-- Scrip to change the page language-->
     <script>
-      function changeLanguage(selectedLanguage) {
-        // Remove all language classes from relevant elements
-        document
-          .querySelectorAll(".english, .portuguese")
-          .forEach((element) => {
-            element.classList.remove("english", "portuguese");
-          });
+      // Set the default language
+      document.addEventListener("DOMContentLoaded", function () {
+        changeLanguage("english");
+      });
 
-        // Add the selected language class to relevant elements
+      function changeLanguage(selectedLanguage) {
+        // Show only the selected language elements
         document.querySelectorAll("." + selectedLanguage).forEach((element) => {
-          element.classList.add(selectedLanguage);
+          element.style.display = "block";
+        });
+
+        // Hide the elements of the other language
+        const otherLanguage =
+          selectedLanguage === "english" ? "portuguese" : "english";
+        document.querySelectorAll("." + otherLanguage).forEach((element) => {
+          element.style.display = "none";
         });
       }
     </script>

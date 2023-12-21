@@ -91,8 +91,14 @@ main {
 }
 
 /* Footer */
-footer {
-    background-color: orange;
+#social-networks {
+    text-align: center;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-size: 250%;
+    width: 80%;
 }
 
 /* Add styles for the language buttons */

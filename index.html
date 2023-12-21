@@ -61,56 +61,87 @@
     <main class="portuguese">Conteudo principal</main>
     <!--Footer-->
     <footer>
-      <ul>
-        <li>
-          <a
-            href="https://www.instagram.com/jornadafotografiaoficial/"
-            target="_blank"
-            rel="noopener"
-            aria-label=""
-            Visit
-            our
-            Facebook
-            page
-            (opens
-            in
-            a
-            new
-            tab)
-          ></a>
-        </li>
+<ul id="social-networks">
+    <li>
+        <a href="https://www.instagram.com/jornadafotografiaoficial/" target="_blank" rel="noopener"
+            aria-label="Visit our Instagram page (opens in a new tab)">
+            <i class="fa-brands fa-square-instagram" style="color: #e12375;"></i>
+        </a>
+    </li>
+
+    <li>
+        <a href="https://www.twitter.com" target="_blank" rel="noopener"
+            aria-label="Visit our Twitter page (opens in a new tab)">
+            <i class="fa-brands fa-square-twitter" style="color: #2c74f2;"></i>
+        </a>
+    </li>
+
+    <li>
+        <a href="https://www.facebook.com" target="_blank" rel="noopener"
+            aria-label="Visit our Facebook page (opens in a new tab)">
+            <i class="fa-brands fa-square-facebook" style="color: #0c5eeb;"></i>
+        </a>
+    </li>
+
+    <li>
+        <a href="wa.me/5551999142035" target="_blank" rel="noopener"
+            aria-label="Contact us on WhatsApp (opens in a new tab)">
+            <i class="fa-brands fa-square-whatsapp" style="color: #1fad70;"></i>
+        </a>
+    </li>
+</ul>
+
       </ul>
     </footer>
 
     <!-- JavaScript to change the page language-->
     <script>
-        // Set the default language
-        document.addEventListener("DOMContentLoaded", function () {
-            changeLanguage("english");
+      // Set the default language
+      document.addEventListener("DOMContentLoaded", function () {
+        changeLanguage("english");
+      });
+
+      function changeLanguage(selectedLanguage) {
+        // Show only the selected language elements
+        document.querySelectorAll("." + selectedLanguage).forEach((element) => {
+          element.style.display = "block";
         });
 
-        function changeLanguage(selectedLanguage) {
-            // Show only the selected language elements
-            document.querySelectorAll("." + selectedLanguage).forEach((element) => {
-                element.style.display = "block";
-            });
-
-            // Hide the elements of the other language
-            const otherLanguage =
-                selectedLanguage === "english" ? "portuguese" : "english";
-            document.querySelectorAll("." + otherLanguage).forEach((element) => {
-                element.style.display = "none";
-            });
-        }
+        // Hide the elements of the other language
+        const otherLanguage =
+          selectedLanguage === "english" ? "portuguese" : "english";
+        document.querySelectorAll("." + otherLanguage).forEach((element) => {
+          element.style.display = "none";
+        });
+      }
     </script>
-        <!-- Use image elements for language selection -->
-        <button class="languageButton englishButton" onclick="changeLanguage('english')">
-            <img src="assets/images/united-states.png" alt="USA Flag" width="40" height="40" />
-        </button>
-        <button class="languageButton portugueseButton" onclick="changeLanguage('portuguese')">
-            <img src="assets/images/brazil-flag.png" alt="Brazil Flag" width="40" height="40" />
-        </button>
+    <!-- Use image elements for language selection -->
+    <button
+      class="languageButton englishButton"
+      onclick="changeLanguage('english')"
+    >
+      <img
+        src="assets/images/united-states.png"
+        alt="USA Flag"
+        width="40"
+        height="40"
+      />
+    </button>
+    <button
+      class="languageButton portugueseButton"
+      onclick="changeLanguage('portuguese')"
+    >
+      <img
+        src="assets/images/brazil-flag.png"
+        alt="Brazil Flag"
+        width="40"
+        height="40"
+      />
+    </button>
     <!-- Font Awesome kit -->
-    <script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/3b20d96fa9.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

@@ -5,6 +5,44 @@
     box-sizing: border-box;
 }
 
+
+/* Language Section */
+/* English styles */
+.english {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Portuguese styles */
+.portuguese {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Add styles for the language buttons */
+.languageButton {
+    position: fixed;
+    top: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    background: none;
+    margin-bottom: 10px;
+}
+
+/* Set the positions for the language buttons */
+.englishButton {
+    right: 80px;
+    /* Adjust the distance from the right side */
+    margin-right: 10px;
+    /* Add margin for spacing */
+}
+
+.portugueseButton {
+    right: 20px;
+    /* Adjust the distance from the right side */
+}
+
+
+
 /* General styles */
 body {
     min-height: 100vh;

@@ -95,6 +95,7 @@ main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 92px;
+    box-shadow: 0 2px 2px #3a3a3a;
 }
 
 
@@ -110,6 +111,7 @@ main {
     height: 40px;
     width: 100%;
     background-color: #cfe2ff;
+    box-shadow: 0 2px 2px #3a3a3a;
 
 }
 
@@ -199,11 +201,14 @@ main {
     margin: 0 auto;
     text-align: center;
     border: 1px solid #ccc;
+    box-shadow: 0 2px 2px #3a3a3a;
+
 }
 
 #about-art img {
     width: 75%;
     height: auto;
+    max-height: 100px;
 }
 
 .about-item {
@@ -265,6 +270,7 @@ main {
         width: fit-content;
         padding-right: 1rem;
         margin-left: auto;
+        font-size: larger;
     }
 
     #menu {
@@ -301,14 +307,12 @@ main {
         margin-top: 70px;
     }
 
-
     /* Portfolio contact middle page*/
 
     #port-contact {
         height: 70px;
         width: 100%;
         background-color: #cfe2ff;
-
     }
 
     /* Journey Content*/
@@ -319,16 +323,34 @@ main {
 
     .text-container,
     .image-container {
-        width: 48%;
+        width: 50%;
+        font-size: x-large;
         /* Adjust as needed to leave space between the text and image */
     }
 
     .journey-item:nth-child(2) .image-container {
         order: -1;
-        /* Move the second image to the left side */
+
+    }
+
+    #serra-photo1-bg {
+        max-width: 400px;
+        max-height: 400px;
+    }
+
+    #serra-photo2-bg {
+        max-width: 400px;
+        max-height: 400px;
     }
 
     /* about us Content*/
+
+    #about-art img {
+        width: auto;
+        height: auto;
+        max-height: 100px;
+    }
+
     .about-item {
         flex-direction: row;
         justify-content: space-between;
@@ -336,7 +358,19 @@ main {
 
     .about-item:nth-child(2) .image-container {
         order: -1;
-        /* Move the second image to the left side */
+
+    }
+
+    #image-miguel {
+        margin: 40px 40px 40px;
+        max-width: 400px;
+        max-height: 400px;
+    }
+
+    #image-debora {
+        margin: 40px 40px 40px;
+        max-width: 400px;
+        max-height: 400px;
     }
 }
 
@@ -345,4 +379,48 @@ main {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
-}
+
+    .text-container,
+    .image-container {
+        width: 48%;
+        font-size: x-large;
+
+
+        /* Nav bar */
+        nav {
+            display: block;
+            position: relative;
+            box-shadow: none;
+            width: fit-content;
+            padding-right: 1rem;
+            margin-left: auto;
+            font-size: x-large;
+
+        }
+
+        /*journey section*/
+        #serra-photo1-bg {
+            max-width: 600px;
+            max-height: 600px;
+        }
+
+        #serra-photo2-bg {
+            max-width: 600px;
+            max-height: 600px;
+        }
+
+        /*About us section */
+        #image-miguel {
+            margin: 40px 40px 40px;
+            max-width: 600px;
+            max-height: 600px;
+        }
+
+        #image-debora {
+            margin: 40px 40px 40px;
+            max-width: 600px;
+            max-height: 600px;
+        }
+
+
+    }

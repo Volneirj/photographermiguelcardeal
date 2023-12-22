@@ -94,7 +94,7 @@ main {
     background-color: rgb(214, 217, 218);
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 42px;
+    margin-top: 92px;
 }
 
 
@@ -187,6 +187,11 @@ main {
 
 
 /* About Us content*/
+
+#about-us {
+    padding-top: 95px;
+}
+
 #about-art {
     background-color: #cfe2ff;
     height: auto;

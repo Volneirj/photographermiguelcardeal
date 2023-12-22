@@ -51,6 +51,7 @@ h1 {
     font-size: 110%;
     letter-spacing: 2px;
     list-style-type: none;
+
 }
 
 #menu>li {
@@ -72,6 +73,7 @@ nav {
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
     top: 100%;
+    font-weight: bold;
 }
 
 /* Nav toggle */
@@ -129,9 +131,6 @@ main {
     background-color: white;
 }
 
-
-
-
 /* Footer */
 #social-networks {
     text-align: center;
@@ -143,36 +142,10 @@ main {
     width: 80%;
 }
 
-/* Add styles for the language buttons */
-.languageButton {
-    position: fixed;
-    bottom: 20px;
-    font-size: 20px;
-    cursor: pointer;
-    border: none;
-    background: none;
-}
-
-.language {
-    display: none;
-}
-
-/* Set the positions for the language buttons */
-.englishButton {
-    right: 10px;
-
-}
-
-.portugueseButton {
-    right: 55px;
-}
-
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
     /* Header */
-
-
     header {
         align-items: center;
     }

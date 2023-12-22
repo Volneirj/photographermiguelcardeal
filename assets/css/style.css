@@ -91,7 +91,7 @@ nav {
 
 /* Main content */
 main {
-    background-color: lightblue;
+    background-color: rgb(214, 217, 218);
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 42px;
@@ -105,30 +105,108 @@ main {
     background: url("../images/hero-image.png") no-repeat center center/cover;
 }
 
-/* Know more section*/
-#knowmore {
-    height: 80px;
+/* Portfolio and contact middle page link section*/
+#port-contact {
+    height: 50px;
     width: 100%;
-    font-family: 'Brush Script MT', cursive;
-    font-size: larger;
-    background-color: yellow;
+    background-color: #cfe2ff;
+
 }
 
-#knowmorelist {
+#port-contact-list {
     text-align: center;
     padding: 15px 0;
     display: flex;
     justify-content: space-around;
     list-style-type: none;
-    font-size: 200%;
     width: 100%;
+}
+
+#port-contact-list img {
+    width: 75%;
+    height: auto;
 }
 
 /* Journey section*/
 #journey {
-    height: 200px;
+    width: 90%;
+    margin: 20px auto;
+}
+
+#journey h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 200%;
+}
+
+#serra-photo1-bg {
+    height: 90vw;
+    width: 90vw;
+    background: url("../images/image.JPG") no-repeat center center/cover;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#serra-photo2-bg {
+    height: 90vw;
+    width: 90vw;
+    background: url("../images/image.JPG") no-repeat center center/cover;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.journey-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-container,
+.image-container {
     width: 100%;
-    background-color: white;
+}
+
+.text-container {
+    text-align: center;
+    margin-bottom: 20px;
+    /* Adjust as needed to leave space between the text and image */
+}
+
+.image-container {
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+
+/* About Us content*/
+
+
+#about-art {
+    background-color: #cfe2ff;
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+#about-art img {
+    width: 75%;
+    height: auto;
+}
+
+.about-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 /* Footer */
@@ -139,7 +217,7 @@ main {
     justify-content: space-evenly;
     list-style-type: none;
     font-size: 250%;
-    width: 80%;
+    width: 100%;
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -197,6 +275,35 @@ main {
     main {
         /* Push main content down to accommodate larger header */
         margin-top: 70px;
+    }
+
+
+    /* Journey Content*/
+    .journey-item {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .text-container,
+    .image-container {
+        width: 48%;
+        /* Adjust as needed to leave space between the text and image */
+    }
+
+    .journey-item:nth-child(2) .image-container {
+        order: -1;
+        /* Move the second image to the left side */
+    }
+
+    /* about us Content*/
+    .about-item {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .about-item:nth-child(2) .image-container {
+        order: -1;
+        /* Move the second image to the left side */
     }
 }
 

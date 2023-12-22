@@ -1,4 +1,4 @@
-# **Photography Journey**
+# *Photogragy Journey**
 
 Information about the website .
 Website image

@@ -20,7 +20,7 @@ body {
 
 /* Header */
 header {
-    background-color: #ffffff;
+    background-color: #cfe2ff;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -29,6 +29,11 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+}
+
+header img {
+    max-width: 90%;
+    height: auto;
 }
 
 header a {
@@ -60,7 +65,7 @@ h1 {
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
-    background-color: #ffffff;
+    background-color: #cfe2ff;
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -129,18 +134,30 @@ main {
 @media screen and (min-width: 768px) {
 
     /* Header */
+
+
+    header {
+        align-items: center;
+    }
+
+    header img {
+        max-width: 300px;
+        height: auto;
+    }
+
+
     nav {
         display: block;
         position: relative;
         box-shadow: none;
         width: fit-content;
         padding-right: 1rem;
+        margin-left: auto;
     }
 
     #menu {
         display: flex;
         flex-direction: row;
-        /* Adicione esta linha */
     }
 
     #menu>li {
@@ -149,6 +166,7 @@ main {
         letter-spacing: 2px;
         word-spacing: 10px;
         flex: none;
+
     }
 
     #menu>li:last-child {

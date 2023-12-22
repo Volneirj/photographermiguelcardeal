@@ -16,6 +16,7 @@ body {
     /* Generic project styles */
     color: #3a3a3a;
     font-family: 'Lato', sans-serif;
+    margin: 0;
 }
 
 /* Header */
@@ -42,7 +43,6 @@ header a {
 }
 
 h1 {
-    font-family: 'Brush Script MT', cursive;
     letter-spacing: 2px;
     color: #252525;
 }
@@ -94,6 +94,43 @@ main {
     flex: 1 0 auto;
     margin-top: 42px;
 }
+
+
+/* Hero Section */
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/hero-image.png") no-repeat center center/cover;
+}
+
+/* Know more section*/
+#knowmore {
+    height: 80px;
+    width: 100%;
+    font-family: 'Brush Script MT', cursive;
+    font-size: larger;
+    background-color: yellow;
+}
+
+#knowmorelist {
+    text-align: center;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    font-size: 200%;
+    width: 100%;
+}
+
+/* Journey section*/
+#journey {
+    height: 200px;
+    width: 100%;
+    background-color: white;
+}
+
+
+
 
 /* Footer */
 #social-networks {

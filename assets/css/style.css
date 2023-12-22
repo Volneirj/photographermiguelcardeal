@@ -107,7 +107,7 @@ main {
 
 /* Portfolio and contact middle page link section*/
 #port-contact {
-    height: 50px;
+    height: 40px;
     width: 100%;
     background-color: #cfe2ff;
 
@@ -125,6 +125,7 @@ main {
 #port-contact-list img {
     width: 75%;
     height: auto;
+    object-fit: cover;
 }
 
 /* Journey section*/
@@ -142,7 +143,7 @@ main {
 #serra-photo1-bg {
     height: 90vw;
     width: 90vw;
-    background: url("../images/image.JPG") no-repeat center center/cover;
+    background: url("../images/image1.JPG") no-repeat center center/cover;
     margin-bottom: 20px;
     border-radius: 50%;
     max-width: 300px;
@@ -152,7 +153,7 @@ main {
 #serra-photo2-bg {
     height: 90vw;
     width: 90vw;
-    background: url("../images/image.JPG") no-repeat center center/cover;
+    background: url("../images/image2.JPG") no-repeat center center/cover;
     margin-bottom: 20px;
     border-radius: 50%;
     max-width: 300px;
@@ -186,8 +187,6 @@ main {
 
 
 /* About Us content*/
-
-
 #about-art {
     background-color: #cfe2ff;
     height: auto;
@@ -207,6 +206,26 @@ main {
     flex-direction: column;
     align-items: center;
 
+}
+
+#image-miguel {
+    height: 90vw;
+    width: 90vw;
+    background: url("../images/miguel-photo.jpg") no-repeat center center/cover;
+    margin: 20px 20px 20px;
+    border-radius: 20%;
+    max-width: 300px;
+    max-height: auto;
+}
+
+#image-debora {
+    height: 90vw;
+    width: 90vw;
+    background: url("../images/debora-photo.jpg") no-repeat center center/cover;
+    margin: 20px 20px 20px;
+    border-radius: 20%;
+    max-width: 300px;
+    max-height: auto;
 }
 
 /* Footer */
@@ -277,6 +296,15 @@ main {
         margin-top: 70px;
     }
 
+
+    /* Portfolio contact middle page*/
+
+    #port-contact {
+        height: 70px;
+        width: 100%;
+        background-color: #cfe2ff;
+
+    }
 
     /* Journey Content*/
     .journey-item {

@@ -48,7 +48,6 @@ h1 {
     font-size: 110%;
     letter-spacing: 2px;
     list-style-type: none;
-
 }
 
 #menu>li {
@@ -254,7 +253,7 @@ p {
     width: 100%;
 }
 
-/* Media query: tablets and larger (smaller than 375px) */
+/* Media query: tablets and larger (smaller than 400px) */
 @media screen and (max-width: 400px) {
 
     /* Main content */
@@ -264,6 +263,16 @@ p {
 
 }
 
+/* Media query: tablets and larger (smaller than 600px) */
+@media screen and (max-width: 600px) {
+
+    /* Hero image */
+    #hero {
+        height: 227px;
+        width: 100%;
+        background: url("../images/hero-image-x-small.webp") no-repeat center center/cover;
+    }
+}
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {

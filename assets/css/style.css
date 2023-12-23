@@ -91,24 +91,23 @@ main {
     background-color: rgb(214, 217, 218);
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 92px;
+    margin-top: 72px;
     box-shadow: 0 2px 2px #3a3a3a;
 }
 
 /* Hero Section */
 #hero {
-    height: 600px;
+    height: 500px;
     width: 100%;
-    background: url("../images/hero-image.png") no-repeat center center/cover;
+    background: url("../images/hero-image.webp") no-repeat center center/cover;
 }
 
 /* Portfolio and contact middle page link section*/
 #port-contact {
-    height: 40px;
+    height: 100px;
     width: 100%;
     background-color: #cfe2ff;
     box-shadow: 0 2px 2px #3a3a3a;
-
 }
 
 #port-contact-list {
@@ -132,16 +131,29 @@ main {
     margin: 20px auto;
 }
 
-#journey h2 {
+h2 {
     margin-bottom: 20px;
+    font-family: 'Kalam', cursive;
     text-align: center;
-    font-size: 200%;
+    font-size: 250%;
+}
+
+h3 {
+    font-family: 'Kalam', cursive;
+    text-align: center;
+    font-size: 175%;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: large;
 }
 
 #serra-photo1-bg {
     height: 90vw;
     width: 90vw;
-    background: url("../images/image1.JPG") no-repeat center center/cover;
+    background: url("../images/image1.webp") no-repeat center center/cover;
     margin-bottom: 20px;
     border-radius: 50%;
     max-width: 300px;
@@ -151,7 +163,7 @@ main {
 #serra-photo2-bg {
     height: 90vw;
     width: 90vw;
-    background: url("../images/image2.JPG") no-repeat center center/cover;
+    background: url("../images/image2.webp") no-repeat center center/cover;
     margin-bottom: 20px;
     border-radius: 50%;
     max-width: 300px;
@@ -172,7 +184,6 @@ main {
 .text-container {
     text-align: center;
     margin-bottom: 20px;
-    /* Adjust as needed to leave space between the text and image */
 }
 
 .image-container {
@@ -196,13 +207,13 @@ main {
     text-align: center;
     border: 1px solid #ccc;
     box-shadow: 0 2px 2px #3a3a3a;
-
 }
 
 #about-art img {
-    width: 75%;
+    width: 60%;
     height: auto;
     max-height: 100px;
+    max-width: 300px;
 }
 
 .about-item {
@@ -215,7 +226,7 @@ main {
 #image-miguel {
     height: 90vw;
     width: 90vw;
-    background: url("../images/miguel-photo.jpg") no-repeat center center/cover;
+    background: url("../images/miguel-photo.webp") no-repeat center center/cover;
     margin: 20px 20px 20px;
     border-radius: 20%;
     max-width: 300px;
@@ -224,7 +235,7 @@ main {
 #image-debora {
     height: 90vw;
     width: 90vw;
-    background: url("../images/debora-photo.jpg") no-repeat center center/cover;
+    background: url("../images/debora-photo.webp") no-repeat center center/cover;
     margin: 20px 20px 20px;
     border-radius: 20%;
     max-width: 300px;
@@ -241,6 +252,17 @@ main {
     width: 100%;
 }
 
+/* Media query: tablets and larger (smaller than 375px) */
+@media screen and (max-width: 400px) {
+
+    /* Main content */
+    main {
+        margin-top: 60px;
+    }
+
+}
+
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
@@ -253,7 +275,6 @@ main {
         max-width: 300px;
         height: auto;
     }
-
 
     nav {
         display: block;
@@ -276,7 +297,6 @@ main {
         letter-spacing: 2px;
         word-spacing: 10px;
         flex: none;
-
     }
 
     #menu>li:last-child {
@@ -302,10 +322,30 @@ main {
     /* Portfolio contact middle page*/
 
     #port-contact {
-        height: 70px;
+        height: 100px;
         width: 100%;
         background-color: #cfe2ff;
+        box-shadow: 0 2px 2px #3a3a3a;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
     }
+
+    #port-contact-list {
+        text-align: center;
+        padding: 15px 0;
+        display: flex;
+        justify-content: space-around;
+        list-style-type: none;
+        width: 100%;
+        align-items: center;
+    }
+
+    #port-contact-list img {
+        max-width: 300px;
+    }
+
 
     /* Journey Content*/
     .journey-item {
@@ -322,7 +362,6 @@ main {
 
     .journey-item:nth-child(2) .image-container {
         order: -1;
-
     }
 
     #serra-photo1-bg {

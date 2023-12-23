@@ -97,17 +97,20 @@ main {
 
 /* Hero Section */
 #hero {
-    height: 500px;
+    height: 300px;
     width: 100%;
-    background: url("../images/hero-image.webp") no-repeat center center/cover;
+    background: url("../images/hero-image-small.webp") no-repeat center center/cover;
 }
 
 /* Portfolio and contact middle page link section*/
 #port-contact {
-    height: 100px;
+    height: 30px;
     width: 100%;
     background-color: #cfe2ff;
     box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #port-contact-list {
@@ -117,12 +120,11 @@ main {
     justify-content: space-around;
     list-style-type: none;
     width: 100%;
+    align-items: center;
 }
 
 #port-contact-list img {
-    width: 75%;
-    height: auto;
-    object-fit: cover;
+    max-width: 100px;
 }
 
 /* Journey section*/
@@ -322,28 +324,11 @@ p {
     /* Portfolio contact middle page*/
 
     #port-contact {
-        height: 100px;
-        width: 100%;
-        background-color: #cfe2ff;
-        box-shadow: 0 2px 2px #3a3a3a;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-    }
-
-    #port-contact-list {
-        text-align: center;
-        padding: 15px 0;
-        display: flex;
-        justify-content: space-around;
-        list-style-type: none;
-        width: 100%;
-        align-items: center;
+        height: 70px;
     }
 
     #port-contact-list img {
-        max-width: 300px;
+        max-width: 200px;
     }
 
 
@@ -406,11 +391,21 @@ p {
     }
 }
 
+
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
+
+    /* Hero image */
+
+    #hero {
+        height: 500px;
+        width: 100%;
+        background: url("../images/hero-image.webp") no-repeat center center/cover;
+    }
+
 
     .text-container,
     .image-container {

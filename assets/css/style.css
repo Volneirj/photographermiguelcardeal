@@ -242,6 +242,73 @@ p {
     max-width: 300px;
 }
 
+/* Portfolio images */
+/* Apply general styles to the portfolio section */
+#portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Apply styles to each portfolio item */
+.portfolio-item {
+    border-radius: 10px;
+    max-width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* Style for text container */
+.text-container {
+    margin-bottom: 20px;
+    flex: 1;
+    /* Ensure text takes up half the space */
+}
+
+/* Style for image container */
+.image-container {
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    flex: 0 0 auto;
+    margin: 0 10px;
+    /* Adjust margin as needed for spacing */
+    overflow: hidden;
+    /* Ensure the circular shape is maintained */
+}
+/* Add background images for each image container */
+#singular-photo-bg {
+    background-image: url('../images/singular-photo.webp') no-repeat center center/cover;
+}
+
+#couple-photo-bg {
+    background-image: url('../images/couple-photo.webp') no-repeat center center/cover;
+}
+
+#family-photo-bg {
+    background-image: url('../images/family-photo.webp') no-repeat center center/cover;
+}
+
+#kids-photo-bg {
+    background-image: url('../images/kids-photo.webp') no-repeat center center/cover;
+}
+
+/* Additional style for alternating image position */
+.portfolio-item:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+/* For odd-numbered items, push the image to the right */
+.portfolio-item:nth-child(odd) .image-container {
+    margin-left: 0;
+    margin-right: 10px;
+    /* Adjust margin as needed for spacing */
+}
+
 /* Footer */
 #social-networks {
     text-align: center;

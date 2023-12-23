@@ -336,6 +336,7 @@ main {
     #serra-photo1-bg {
         max-width: 400px;
         max-height: 400px;
+        margin-left: 10px;
     }
 
     #serra-photo2-bg {
@@ -402,11 +403,14 @@ main {
         #serra-photo1-bg {
             max-width: 600px;
             max-height: 600px;
+            margin-left: 15%;
         }
 
         #serra-photo2-bg {
             max-width: 600px;
             max-height: 600px;
+            margin-right: 15%;
+
         }
 
         /*About us section */
@@ -414,12 +418,42 @@ main {
             margin: 40px 40px 40px;
             max-width: 600px;
             max-height: 600px;
+            margin-left: 15%;
         }
 
         #image-debora {
             margin: 40px 40px 40px;
             max-width: 600px;
             max-height: 600px;
+            margin-right: 15%;
+        }
+
+
+    }
+
+    /* Large devices (laptops and desktops, 11440px and up) */
+    @media screen and (min-width: 1440px) {
+
+        /*journey section*/
+        #serra-photo1-bg {
+            margin-left: 10%;
+
+        }
+
+        #serra-photo2-bg {
+            margin-right: 10%;
+
+
+        }
+
+        /*About us section */
+        #image-miguel {
+            margin-left: 10%;
+        }
+
+        #image-debora {
+
+            margin-right: 10%;
         }
 
 

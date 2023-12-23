@@ -1,9 +1,20 @@
-# *Photogragy Journey**
+# ***Photogragy Journey***
 
-Information about the website .
-Website image
+Welcome to the Photography Journey project, a captivating exploration of moments captured amidst the stunning landscapes of Serra Gaúcha. This web application is a course project designed to showcase the incredible work of a friend and talented photographer Miguel , as they embark on a visual journey through the picturesque region.
+
+## **Project Overview**
+
+# **Purpose:**
+
+The primary aim of the Photography Journey project is to celebrate the art of photography by encapsulating the essence of Serra Gaúcha through the lens of our dedicated photographer. This educational website serves as a platform to highlight the beauty of fleeting moments, offering a glimpse into the rich tapestry of life in this captivating Brazilian highland.
+
+# **Educational Focus:**
+
+As part of a course project, this website serves as an educational resource, demonstrating the application of web development skills to create an engaging online platform. Through the lens of our friend's photography, we aim to explore both the technical aspects of web design and the artistry of visual storytelling.
 
 ## **Existing features**
+
+
 
 ### **Navigation Bar**
 

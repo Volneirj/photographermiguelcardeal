@@ -1,57 +1,117 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Meta tags for search Engines-->
-    <meta name="description" content="Photography Journey, Gramado" />
+    <meta name="description" content="Photography Journey, Gramado">
     <meta name="keywords"
-        content="Photography, fotografo, gramado fotografia, gramado fotografo, photografer Gramado, rio grande do sul, inverno, verao" />
+        content="Photography, fotografo, gramado fotografia, gramado fotografo, photografer Gramado, rio grande do sul, inverno, verao">
     <!-- Title -->
-    <title>Jornada da Fotografia</title>
+    <title>Photography Journey</title>
     <!--Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <!--  Fonts link here -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&family=Kalam:wght@300;400;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200&display=swap"
+        style="font-display: swap;">
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="assets/css/style.css" />
-
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-
     <!-- Header-->
     <header>
         <a href="index.html">
-            <img src="assets/images/logo-journey.png" alt="Jornada Header Image">
+            <img src="assets/images/logo-journey.webp" alt="Jornada Header Image">
         </a>
-        <input type="checkbox" id="nav-toggle" name="nav-toggle" />
+        <input type="checkbox" id="nav-toggle" name="nav-toggle">
         <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
         <nav>
             <ul id="menu">
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="">About Us</a></li>
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="#about-us">About Us</a></li>
                 <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
             </ul>
         </nav>
     </header>
     <!--Main Content-->
-    <main>Main content</main>
-    <section id="hero">
-    </section>
-    <section id="knowmore">
-        <ul id="knowmorelist">
-            <li><a href="portifolio.html">Portfolio</a></li>
-            <li><a href="contact.html">Contato</a></li>
-        </ul>
-    </section>
-
-    <section id="journey">
-
-    </section>
-
+    <main>
+        <section id="hero">
+        </section>
+        <section id="port-contact">
+            <ul id="port-contact-list">
+                <li><a href="portfolio.html"><img src="assets/images/portfolio-art.webp" alt="Portfolio"></a></li>
+                <li><a href="contact.html"><img src="assets/images/contact-art.webp" alt="Contact"></a></li>
+            </ul>
+        </section>
+        <!-- Serra Gaucha-->
+        <section id="journey">
+            <h2>Serra Gaucha</h2>
+            <div class="journey-item">
+                <div class="text-container">
+                    <h3>Memories worth immortalizing</h3>
+                    <hr>
+                    <p>Imagine a magical place, where nature reveals itself in stunning landscapes, between valleys,
+                        mountains,
+                        and waterfalls. A place where time seems to slow down, inviting you to enjoy every moment with
+                        your
+                        family. This place is Serra Gaúcha, a haven of beauty and charm that awaits you.</p>
+                </div>
+                <div class="image-container" id="serra-photo1-bg"></div>
+            </div>
+            <div class="journey-item">
+                <div class="text-container">
+                    <h3>More than just pictures, <strong>Memories.</strong></h3>
+                    <hr>
+                    <p>As a professional photographer in Serra Gaúcha, my work goes beyond recording images. My goal is
+                        to
+                        capture the essence
+                        of every moment, immortalizing the memories you create with your family in this magical place.
+                        With a sensitive eye and attentive to details, I seek to translate into images the joy, love,
+                        and
+                        complicity that you
+                        share. Each photo is a story told, a unique moment that will be relived with emotion for many
+                        years to
+                        come.</p>
+                </div>
+                <div class="image-container" id="serra-photo2-bg"></div>
+            </div>
+        </section>
+        <!--About us section-->
+        <section id="about-us">
+            <div id="about-art"><img src="assets/images/about-us-art.webp" alt="About Us"></div>
+            <div class="about-item">
+                <div class="text-container">
+                    <h3>Miguel Cardeal</h3>
+                    <hr>
+                    <p>I'm from Rio Grande do Sul, originally from Santo Antônio da Patrulha. I started working and
+                        studying photography at the
+                        beginning of 2023, and since then, I've taken some courses. Currently, I work in Canela as a
+                        photographer, focusing on
+                        excellence in my work. Although I can be spontaneous and fun from time to time.</p>
+                </div>
+                <div class="image-container" id="image-miguel"></div>
+            </div>
+            <div class="about-item">
+                <div class="text-container">
+                    <h3>Debora da Silva Sauro</h3>
+                    <hr>
+                    <p>I'm from Rio Grande do Sul, originally from Canela. I joined the project along with my boyfriend
+                        when we decided to
+                        explore our passion for photography even further. Drawing from my past experiences, including
+                        working on Selfie de
+                        Gramado and collaborating with photographer friends, we pooled our photographic materials, such
+                        as photos, cameras, and
+                        knowledge, to create the 'Photography Journey'.</p>
+                </div>
+                <div class="image-container" id="image-debora"></div>
+            </div>
     </main>
     <!--Footer-->
     <footer>
@@ -62,14 +122,12 @@
                     <i class="fa-brands fa-square-instagram" style="color: #e12375;"></i>
                 </a>
             </li>
-
             <li>
                 <a href="https://www.facebook.com" target="_blank" rel="noopener"
                     aria-label="Visit our Facebook page (opens in a new tab)">
                     <i class="fa-brands fa-square-facebook" style="color: #0c5eeb;"></i>
                 </a>
             </li>
-
             <li>
                 <a href="wa.me/5551999142035" target="_blank" rel="noopener"
                     aria-label="Contact us on WhatsApp (opens in a new tab)">
@@ -77,7 +135,6 @@
                 </a>
             </li>
         </ul>
-
         </ul>
     </footer>
     <!-- Font Awesome kit -->

@@ -126,8 +126,8 @@ main {
     max-width: 100px;
 }
 
-/* Journey section*/
-#journey {
+/* Index Serra section*/
+#serra {
     width: 90%;
     margin: 20px auto;
 }
@@ -171,7 +171,7 @@ p {
     max-height: 300px;
 }
 
-.journey-item {
+.serra-item {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -243,70 +243,57 @@ p {
 }
 
 /* Portfolio images */
-/* Apply general styles to the portfolio section */
+
 #portfolio {
+    padding-top: 95px;
+}
+
+.portfolio-item {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    text-align: center;
 }
 
-/* Apply styles to each portfolio item */
-.portfolio-item {
-    border-radius: 10px;
-    max-width: 600px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-/* Style for text container */
-.text-container {
-    margin-bottom: 20px;
-    flex: 1;
-    /* Ensure text takes up half the space */
-}
-
-/* Style for image container */
-.image-container {
-    background-size: cover;
-    background-position: center center;
-    width: 100%;
-    height: 100%;
-    flex: 0 0 auto;
-    margin: 0 10px;
-    /* Adjust margin as needed for spacing */
-    overflow: hidden;
-    /* Ensure the circular shape is maintained */
-}
 /* Add background images for each image container */
+
 #singular-photo-bg {
-    background-image: url('../images/singular-photo.webp') no-repeat center center/cover;
+    height: 90vw;
+    width: 90vw;
+    margin: 20px 20px 20px;
+    border-radius: 20%;
+    max-width: 400px;
+    max-height: 500px;
+    background: url("../images/singular-photo.webp") no-repeat center center/cover;
 }
 
 #couple-photo-bg {
-    background-image: url('../images/couple-photo.webp') no-repeat center center/cover;
+    height: 90vw;
+    width: 90vw;
+    margin: 20px 20px 20px;
+    border-radius: 20%;
+    max-width: 400px;
+    max-height: 500px;
+    background: url("../images/couple-photo.webp") no-repeat center center/cover;
 }
 
 #family-photo-bg {
-    background-image: url('../images/family-photo.webp') no-repeat center center/cover;
+    height: 90vw;
+    width: 90vw;
+    margin: 20px 20px 20px;
+    border-radius: 20%;
+    max-width: 400px;
+    max-height: 500px;
+    background: url("../images/family-photo.webp") no-repeat center center/cover;
 }
 
 #kids-photo-bg {
-    background-image: url('../images/kids-photo.webp') no-repeat center center/cover;
-}
-
-/* Additional style for alternating image position */
-.portfolio-item:nth-child(even) {
-    flex-direction: row-reverse;
-}
-
-/* For odd-numbered items, push the image to the right */
-.portfolio-item:nth-child(odd) .image-container {
-    margin-left: 0;
-    margin-right: 10px;
-    /* Adjust margin as needed for spacing */
+    height: 90vw;
+    width: 90vw;
+    margin: 20px 20px 20px;
+    border-radius: 20%;
+    max-width: 400px;
+    max-height: 500px;
+    background: url("../images/kids-photo.webp") no-repeat center center/cover;
 }
 
 /* Footer */
@@ -408,20 +395,19 @@ p {
     }
 
 
-    /* Journey Content*/
-    .journey-item {
+    /* Index Serra Content*/
+    .serra-item {
         flex-direction: row;
         justify-content: space-between;
     }
 
     .text-container,
     .image-container {
-        width: 50%;
+        width: 50vh;
         font-size: x-large;
-        /* Adjust as needed to leave space between the text and image */
     }
 
-    .journey-item:nth-child(2) .image-container {
+    .serra-item:nth-child(2) .image-container {
         order: -1;
     }
 
@@ -465,96 +451,142 @@ p {
         max-width: 400px;
         max-height: 400px;
     }
-}
 
-
-/* Large devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px) {
-    #menu a:hover {
-        border-bottom: 1px solid #3a3a3a;
+    /* PortFolio */
+    .portfolio-item {
+        flex-direction: row;
+        justify-content: space-between;
     }
 
-    /* Hero image */
-
-    #hero {
-        height: 500px;
-        width: 100%;
-        background: url("../images/hero-image.webp") no-repeat center center/cover;
-    }
-
-
-    .text-container,
-    .image-container {
-        width: 48%;
-        font-size: x-large;
+    .portfolio-item:nth-child(2) .image-container {
+        order: -1;
 
     }
 
-    /* Nav bar */
-    nav {
-        display: block;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-        padding-right: 1rem;
-        margin-left: auto;
-        font-size: x-large;
-    }
-
-    /*journey section*/
-    #serra-photo1-bg {
-        max-width: 600px;
-        max-height: 600px;
-        margin-left: 15%;
-    }
-
-    #serra-photo2-bg {
-        max-width: 600px;
-        max-height: 600px;
-        margin-right: 15%;
+    .portfolio-item:nth-child(4) .image-container {
+        order: -1;
 
     }
 
-    /*About us section */
-    #image-miguel {
-        margin: 40px 40px 40px;
-        max-width: 600px;
-        max-height: 600px;
-        margin-left: 15%;
-    }
-
-    #image-debora {
-        margin: 40px 40px 40px;
-        max-width: 600px;
-        max-height: 600px;
-        margin-right: 15%;
-    }
-}
-
-/* Large devices (laptops and desktops, 11440px and up) */
-@media screen and (min-width: 1440px) {
-
-    /*journey section*/
-    #serra-photo1-bg {
-        margin-left: 10%;
+    #singular-photo-bg,
+    #family-photo-bg {
+        margin-left: 5%;
 
     }
 
-    #serra-photo2-bg {
-        margin-right: 10%;
+    #couple-photo-bg,
+    #kids-photo-bg {
+        margin-right: 5%;
+    }
 
+    /* Large devices (laptops and desktops, 992px and up) */
+    @media screen and (min-width: 992px) {
+        #menu a:hover {
+            border-bottom: 1px solid #3a3a3a;
+        }
+
+        /* Hero image */
+
+        #hero {
+            height: 500px;
+            width: 100%;
+            background: url("../images/hero-image.webp") no-repeat center center/cover;
+        }
+
+        .text-container,
+        .image-container {
+            width: 50vh;
+            font-size: x-large;
+        }
+
+        /* Nav bar */
+        nav {
+            display: block;
+            position: relative;
+            box-shadow: none;
+            width: fit-content;
+            padding-right: 1rem;
+            margin-left: auto;
+            font-size: x-large;
+        }
+
+        /*Index Serra section*/
+        #serra-photo1-bg {
+            max-width: 600px;
+            max-height: 600px;
+            margin-left: 15%;
+        }
+
+        #serra-photo2-bg {
+            max-width: 600px;
+            max-height: 600px;
+            margin-right: 15%;
+
+        }
+
+        /*About us section */
+        #image-miguel {
+            margin: 40px 40px 40px;
+            max-width: 600px;
+            max-height: 600px;
+            margin-left: 15%;
+        }
+
+        #image-debora {
+            margin: 40px 40px 40px;
+            max-width: 600px;
+            max-height: 600px;
+            margin-right: 15%;
+        }
+
+        #singular-photo-bg,
+        #family-photo-bg {
+            margin-left: 8%;
+
+        }
+
+        #couple-photo-bg,
+        #kids-photo-bg {
+            margin-right: 8%;
+        }
 
     }
 
-    /*About us section */
-    #image-miguel {
-        margin-left: 10%;
+    /* Large devices (laptops and desktops, 1440px and up) */
+    @media screen and (min-width: 1440px) {
+
+        /*Index Serra section*/
+        #serra-photo1-bg {
+            margin-left: 10%;
+
+        }
+
+        #serra-photo2-bg {
+            margin-right: 10%;
+
+
+        }
+
+        /*About us section */
+        #image-miguel {
+            margin-left: 10%;
+        }
+
+        #image-debora {
+
+            margin-right: 10%;
+        }
+
+        #singular-photo-bg,
+        #family-photo-bg {
+            margin-left: 10%;
+
+        }
+
+        #couple-photo-bg,
+        #kids-photo-bg {
+            margin-right: 10%;
+        }
+
+
     }
-
-    #image-debora {
-
-        margin-right: 10%;
-    }
-
-
-}

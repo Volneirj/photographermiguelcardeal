@@ -82,7 +82,7 @@ nav {
 }
 
 .nav-toggle-label {
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 /* Main content */
@@ -151,24 +151,25 @@ p {
     font-size: large;
 }
 
-#serra-photo1-bg {
-    height: 90vw;
-    width: 90vw;
-    background: url("../images/image1.webp") no-repeat center center/cover;
-    margin-bottom: 20px;
-    border-radius: 50%;
+
+/* Index Image size control */
+.image-size {
     max-width: 300px;
     max-height: 300px;
+    max-width: 300px;
+    max-height: 300px;
+    height: 90vw;
+    width: 90vw;
+}
+
+#serra-photo1-bg {
+    background: url("../images/image1.webp") no-repeat center center/cover;
+    border-radius: 50%;
 }
 
 #serra-photo2-bg {
-    height: 90vw;
-    width: 90vw;
     background: url("../images/image2.webp") no-repeat center center/cover;
-    margin-bottom: 20px;
     border-radius: 50%;
-    max-width: 300px;
-    max-height: 300px;
 }
 
 .serra-item {
@@ -221,31 +222,28 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 #image-miguel {
-    height: 90vw;
-    width: 90vw;
     background: url("../images/miguel-photo.webp") no-repeat center center/cover;
-    margin: 20px 20px 20px;
     border-radius: 20%;
-    max-width: 300px;
 }
 
 #image-debora {
-    height: 90vw;
-    width: 90vw;
     background: url("../images/debora-photo.webp") no-repeat center center/cover;
-    margin: 20px 20px 20px;
     border-radius: 20%;
-    max-width: 300px;
 }
 
 /* Portfolio images */
 
 #portfolio {
-    padding-top: 95px;
+    padding-top: 50px;
+}
+
+#portfolio h2 {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 100%;
 }
 
 .portfolio-item {
@@ -256,43 +254,28 @@ p {
 
 /* Add background images for each image container */
 
-#singular-photo-bg {
+.image-portfolio {
     height: 90vw;
     width: 90vw;
     margin: 20px 20px 20px;
     border-radius: 20%;
     max-width: 400px;
     max-height: 500px;
+}
+
+#singular-photo-bg {
     background: url("../images/singular-photo.webp") no-repeat center center/cover;
 }
 
 #couple-photo-bg {
-    height: 90vw;
-    width: 90vw;
-    margin: 20px 20px 20px;
-    border-radius: 20%;
-    max-width: 400px;
-    max-height: 500px;
     background: url("../images/couple-photo.webp") no-repeat center center/cover;
 }
 
 #family-photo-bg {
-    height: 90vw;
-    width: 90vw;
-    margin: 20px 20px 20px;
-    border-radius: 20%;
-    max-width: 400px;
-    max-height: 500px;
     background: url("../images/family-photo.webp") no-repeat center center/cover;
 }
 
 #kids-photo-bg {
-    height: 90vw;
-    width: 90vw;
-    margin: 20px 20px 20px;
-    border-radius: 20%;
-    max-width: 400px;
-    max-height: 500px;
     background: url("../images/kids-photo.webp") no-repeat center center/cover;
 }
 
@@ -317,7 +300,7 @@ p {
 
 }
 
-/* Media query: tablets and larger (smaller than 600px) */
+/* Media query: small screens to better performance (smaller than 600px) */
 @media screen and (max-width: 600px) {
 
     /* Hero image */
@@ -326,6 +309,34 @@ p {
         width: 100%;
         background: url("../images/hero-image-x-small.webp") no-repeat center center/cover;
     }
+
+}
+
+/* Media query: small screens to better performance (smaller than 767px) */
+@media screen and (max-width: 767px) {
+
+    /* Header */
+    header {
+        max-height: 70px;
+    }
+
+    /* Logo Image */
+    header img {
+        max-width: 90%;
+        max-height: 70px;
+    }
+
+}
+
+/* Media query: small screens to better performance (smaller than 600px) */
+@media screen and (min-width: 600px) {
+
+    /* PortFolio */
+    #portfolio h2 {
+        max-width: 600px;
+        font-size: 150%;
+    }
+
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -384,7 +395,7 @@ p {
         margin-top: 70px;
     }
 
-    /* Portfolio contact middle page*/
+    /* Portfolio-contact middle page*/
 
     #port-contact {
         height: 70px;
@@ -411,17 +422,6 @@ p {
         order: -1;
     }
 
-    #serra-photo1-bg {
-        max-width: 400px;
-        max-height: 400px;
-        margin-left: 10px;
-    }
-
-    #serra-photo2-bg {
-        max-width: 400px;
-        max-height: 400px;
-    }
-
     /* about us Content*/
 
     #about-art img {
@@ -440,19 +440,13 @@ p {
 
     }
 
-    #image-miguel {
-        margin: 40px 40px 40px;
-        max-width: 400px;
-        max-height: 400px;
-    }
-
-    #image-debora {
-        margin: 40px 40px 40px;
-        max-width: 400px;
-        max-height: 400px;
-    }
-
     /* PortFolio */
+    #portfolio h2 {
+        max-width: 600px;
+        font-size: 150%;
+    }
+
+
     .portfolio-item {
         flex-direction: row;
         justify-content: space-between;
@@ -468,125 +462,94 @@ p {
 
     }
 
+    /* Text settings/position*/
+    .text-left {
+        margin: 0 auto;
+    }
+
+    .text-right {
+        margin: 0 auto;
+    }
+
+    /* Image settings/position*/
+    #image-miguel,
+    #serra-photo1-bg,
     #singular-photo-bg,
     #family-photo-bg {
-        margin-left: 5%;
+        margin: 5%;
 
     }
 
+    #serra-photo2-bg,
+    #image-debora,
     #couple-photo-bg,
     #kids-photo-bg {
-        margin-right: 5%;
+        margin: 5%;
+    }
+}
+
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
     }
 
-    /* Large devices (laptops and desktops, 992px and up) */
-    @media screen and (min-width: 992px) {
-        #menu a:hover {
-            border-bottom: 1px solid #3a3a3a;
-        }
+    /* Hero image */
 
-        /* Hero image */
+    #hero {
+        height: 500px;
+        width: 100%;
+        background: url("../images/hero-image.webp") no-repeat center center/cover;
+    }
 
-        #hero {
-            height: 500px;
-            width: 100%;
-            background: url("../images/hero-image.webp") no-repeat center center/cover;
-        }
+    /* Nav bar */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+        margin-left: auto;
+        font-size: x-large;
+    }
 
-        .text-container,
-        .image-container {
-            width: 50vh;
-            font-size: x-large;
-        }
+}
 
-        /* Nav bar */
-        nav {
-            display: block;
-            position: relative;
-            box-shadow: none;
-            width: fit-content;
-            padding-right: 1rem;
-            margin-left: auto;
-            font-size: x-large;
-        }
+/* Large devices (laptops and desktops, 1025px and up) */
+@media screen and (min-width: 1025px) {
 
-        /*Index Serra section*/
-        #serra-photo1-bg {
-            max-width: 600px;
-            max-height: 600px;
-            margin-left: 15%;
-        }
-
-        #serra-photo2-bg {
-            max-width: 600px;
-            max-height: 600px;
-            margin-right: 15%;
-
-        }
-
-        /*About us section */
-        #image-miguel {
-            margin: 40px 40px 40px;
-            max-width: 600px;
-            max-height: 600px;
-            margin-left: 15%;
-        }
-
-        #image-debora {
-            margin: 40px 40px 40px;
-            max-width: 600px;
-            max-height: 600px;
-            margin-right: 15%;
-        }
-
-        #singular-photo-bg,
-        #family-photo-bg {
-            margin-left: 8%;
-
-        }
-
-        #couple-photo-bg,
-        #kids-photo-bg {
-            margin-right: 8%;
-        }
+    .image-size {
+        max-width: 600px;
+        max-height: 600px;
 
     }
 
-    /* Large devices (laptops and desktops, 1440px and up) */
-    @media screen and (min-width: 1440px) {
+}
 
-        /*Index Serra section*/
-        #serra-photo1-bg {
-            margin-left: 10%;
+/* Large devices (laptops and desktops, 1440px and up) */
+@media screen and (min-width: 1440px) {
 
-        }
-
-        #serra-photo2-bg {
-            margin-right: 10%;
-
-
-        }
-
-        /*About us section */
-        #image-miguel {
-            margin-left: 10%;
-        }
-
-        #image-debora {
-
-            margin-right: 10%;
-        }
-
-        #singular-photo-bg,
-        #family-photo-bg {
-            margin-left: 10%;
-
-        }
-
-        #couple-photo-bg,
-        #kids-photo-bg {
-            margin-right: 10%;
-        }
-
+    /* Image settings/position*/
+    #image-miguel,
+    #singular-photo-bg,
+    #family-photo-bg {
+        margin: 15%;
 
     }
+
+    #image-debora,
+    #couple-photo-bg,
+    #kids-photo-bg {
+        margin: 15%;
+    }
+
+    /* Text settings/position*/
+    .text-left {
+        margin-left: 10%;
+    }
+
+    .text-right {
+        margin-right: 10%;
+    }
+
+}

@@ -44,26 +44,25 @@
     <main>
      <section id="contact">
         <form id="contact-form" method="post" action="https://formdump.codeinstitute.net">
-        <h2><i class ="fa solid fa-heartbeat"></i> Contact us for quote and more information!</h2>
-        <label for="first_name">First Name</label>
+        <h2></i> Contact us ♥</h2>
+        <label for="first_name">First Name:</label>
         <input type="text" name="first_name" id="first_name" class="text-input" required>
         <br>
         <label for="last_name">Last Name</label>
         <input type="text" name="last_name" id="last_name" class="text-input" required>
         <br>
-        <label for="email_address">Email Address</label>
+        <label for="email_address">Email Address:</label>
         <input type="email" name="email_address" id="email_address" class="text-input" required>
         <br>
-        <label for="contact_number">Contact Number</label>
-        <input type="email" name="contact_number" id="contact_number" class="text-input" required>
+        <label for="contact_number">Contact Number:</label>
+        <input type="tel" class="text-input name="contact_number" id="contact_number" pattern="[0-9]+" title="Please enter only numbers" inputmode="numeric"class="text-input" required>
         <br>
-    </div>
-</div>
-<button type="submit" class="contact-button">Send your Request</button>
-
-            
+        <label for="extra_info">Additional Information (up to 500 characters):</label>
+        <textarea id="extra_info"  class="extra-input" name="extra_info" placeholder="Enter here any extra information (max 500 characters)"
+            maxlength="500" rows="4"></textarea>
+        <br>
+        <button type="submit" class="contact-button">Send us your request!</button>          
         </form>
-
      </section>
     </main>
     <!--Footer-->

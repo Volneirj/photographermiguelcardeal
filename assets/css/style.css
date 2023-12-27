@@ -92,6 +92,8 @@ main {
     flex: 1 0 auto;
     margin-top: 72px;
     box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Hero Section */
@@ -104,7 +106,7 @@ main {
 /* Contact Page */
 /* Form */
 #contact {
-    background-image: url("../images/");
+    background-image: url("../images/contact-image-small.webp");
     background-size: cover;
     background-position: 75%;
     padding: 20px 10% 0 10%;
@@ -127,6 +129,17 @@ main {
     color: #fafafa;
     width: 100%;
     height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+.extra-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 100px;
     margin: 5px 0 20px 0;
     border: 1px solid #fafafa;
     border-radius: 2px;
@@ -349,12 +362,24 @@ p {
 
     /* Hero image */
     #hero {
-        height: 227px;
+        height: 400px;
         width: 100%;
-        background: url("../images/hero-image-x-small.webp") no-repeat center center/cover;
+        background: url("../images/hero-image-small.webp") no-repeat center center/cover;
 
     }
 
+    /* Contact Page */
+    /* Form */
+    #contact {
+        background-image: url("../images/contact-image-small.webp");
+        height: 300px;
+    }
+
+    /* PortFolio */
+    #portfolio h2 {
+        max-width: 600px;
+        font-size: 150%;
+    }
 }
 
 /* Media query: small screens to better performance (smaller than 767px) */
@@ -369,17 +394,6 @@ p {
     header img {
         max-width: 90%;
         max-height: 70px;
-    }
-
-}
-
-/* Media query: small screens to better performance (smaller than 600px) */
-@media screen and (min-width: 600px) {
-
-    /* PortFolio */
-    #portfolio h2 {
-        max-width: 600px;
-        font-size: 150%;
     }
 
 }
@@ -438,6 +452,32 @@ p {
     main {
         /* Push main content down to accommodate larger header */
         margin-top: 70px;
+    }
+
+    /* Contact Page */
+    /* forms */
+
+    #contact {
+        background-position: center center;
+        background-image: url("../images/contact-image.webp");
+        background-size: cover;
+        position: relative;
+    }
+
+    #contact-form {
+        max-width: 400px;
+        position: absolute;
+        left: 10%;
+        top: 150px;
+    }
+
+    .text-input:hover {
+        border-color: #f16c6b;
+    }
+
+    .contact-button:hover {
+        background-color: #fafafa;
+        color: #454b1b;
     }
 
     /* Portfolio-contact middle page*/
@@ -545,6 +585,12 @@ p {
         height: 500px;
         width: 100%;
         background: url("../images/hero-image.webp") no-repeat center center/cover;
+    }
+
+    /* Contact Page */
+    /* Form */
+    #contact {
+        background-image: url("../images/contact-image.webp");
     }
 
     /* Nav bar */

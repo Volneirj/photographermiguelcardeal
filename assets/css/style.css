@@ -106,7 +106,7 @@ main {
 /* Contact Page */
 /* Form */
 #contact {
-    background-image: url("../images/contact-image-small.webp");
+    background-image: url("../images/contact-image.webp");
     background-size: cover;
     background-position: 75%;
     padding: 20px 10% 0 10%;
@@ -366,13 +366,6 @@ p {
         width: 100%;
         background: url("../images/hero-image-small.webp") no-repeat center center/cover;
 
-    }
-
-    /* Contact Page */
-    /* Form */
-    #contact {
-        background-image: url("../images/contact-image-small.webp");
-        height: 300px;
     }
 
     /* PortFolio */

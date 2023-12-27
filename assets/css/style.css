@@ -30,7 +30,7 @@ header {
 }
 
 header img {
-    max-width: 90%;
+    max-width: 70%;
     height: auto;
 }
 
@@ -101,6 +101,7 @@ main {
     height: 300px;
     width: 100%;
     background: url("../images/hero-image-small.webp") no-repeat center center/cover;
+
 }
 
 /* Contact Page */
@@ -365,6 +366,7 @@ p {
         height: 400px;
         width: 100%;
         background: url("../images/hero-image-small.webp") no-repeat center center/cover;
+        background-position: 30%;
 
     }
 
@@ -373,22 +375,6 @@ p {
         max-width: 600px;
         font-size: 150%;
     }
-}
-
-/* Media query: small screens to better performance (smaller than 767px) */
-@media screen and (max-width: 767px) {
-
-    /* Header */
-    header {
-        max-height: 70px;
-    }
-
-    /* Logo Image */
-    header img {
-        max-width: 90%;
-        max-height: 70px;
-    }
-
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -445,6 +431,13 @@ p {
     main {
         /* Push main content down to accommodate larger header */
         margin-top: 70px;
+    }
+
+    /* Hero image */
+    #hero {
+        height: 500px;
+        width: 100%;
+        background: url("../images/hero-image.webp") no-repeat center center/cover;
     }
 
     /* Contact Page */

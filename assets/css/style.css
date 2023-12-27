@@ -32,6 +32,7 @@ header {
 header img {
     max-width: 70%;
     height: auto;
+    max-height: 70px;
 }
 
 header a {
@@ -90,7 +91,7 @@ main {
     background-color: rgb(214, 217, 218);
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 72px;
+    margin-top: 40px;
     box-shadow: 0 2px 2px #3a3a3a;
     display: flex;
     flex-direction: column;
@@ -348,12 +349,12 @@ p {
     width: 100%;
 }
 
-/* Media query: tablets and larger (smaller than 400px) */
-@media screen and (max-width: 400px) {
+/* Media query: tablets and larger (smaller than 425px) */
+@media screen and (min-width: 425px) {
 
     /* Main content */
     main {
-        margin-top: 60px;
+        margin-top: 45px;
     }
 
 }
@@ -378,7 +379,7 @@ p {
 }
 
 /* Media query: tablets and larger (768px and up) */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) or ((orientation:landscape)and(min-width: 768px)) {
 
     /* Header */
     header {
@@ -440,6 +441,7 @@ p {
         background: url("../images/hero-image.webp") no-repeat center center/cover;
     }
 
+
     /* Contact Page */
     /* forms */
 
@@ -492,8 +494,6 @@ p {
     .serra-item:nth-child(2) .image-container {
         order: -1;
     }
-
-    /* about us Content*/
 
     #about-art img {
         width: auto;
@@ -557,10 +557,15 @@ p {
     #kids-photo-bg {
         margin: 5%;
     }
+
+    #image-miguel,
+    #image-debora {
+        max-height: 400px;
+    }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) or ((orientation:landscape)and(min-width: 992px)) {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
@@ -593,7 +598,7 @@ p {
 }
 
 /* Large devices (laptops and desktops, 1025px and up) */
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1025px) or ((orientation:landscape)and(min-width: 1025px)) {
 
     .image-size {
         max-width: 600px;
@@ -601,10 +606,15 @@ p {
 
     }
 
+    #image-miguel,
+    #image-debora {
+        max-width: 400px;
+    }
+
 }
 
 /* Large devices (laptops and desktops, 1440px and up) */
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1440px) or ((orientation:landscape)and(min-width: 1440px)) {
 
     #portfolio h2 {
         max-width: 1100px;
@@ -625,6 +635,18 @@ p {
         margin: 15%;
     }
 
+    #image-miguel,
+    #image-debora {
+        max-width: 600px;
+        max-height: 600px;
+    }
+
+    .image-size {
+        max-width: 800px;
+        max-height: 550px;
+
+    }
+
     /* Text settings/position*/
     .text-left {
         margin-left: 10%;
@@ -633,5 +655,16 @@ p {
     .text-right {
         margin-right: 10%;
     }
+
+    .text-container,
+    .image-container {
+        width: 50vh;
+        font-size: 150%;
+    }
+
+    .text-container p {
+        font-size: 100%;
+    }
+
 
 }

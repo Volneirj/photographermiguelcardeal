@@ -98,9 +98,10 @@ main {
 
 /* Hero Section */
 #hero {
-    height: 300px;
+    height: 18vh;
     width: 100%;
     background: url("../images/hero-image-small.webp") no-repeat center center/cover;
+    background-position: 30%;
 
 }
 
@@ -161,7 +162,6 @@ main {
     color: #fafafa;
 }
 
-
 /* Portfolio/contact middle page bar section*/
 #port-contact {
     height: 30px;
@@ -186,7 +186,6 @@ main {
 #port-contact-list img {
     max-width: 100px;
 }
-
 
 /* Index Serra section*/
 #serra {
@@ -354,27 +353,8 @@ p {
     line-height: 1;
 }
 
-/* Media query: tablets and larger (smaller than 425px) */
-@media screen and (min-width: 425px) {
-
-    /* Main content */
-    main {
-        margin-top: 45px;
-    }
-
-}
-
 /* Media query: small screens to better performance (smaller than 600px) */
 @media screen and (max-width: 600px) {
-
-    /* Hero image */
-    #hero {
-        height: 400px;
-        width: 100%;
-        background: url("../images/hero-image-small.webp") no-repeat center center/cover;
-        background-position: 30%;
-
-    }
 
     /* PortFolio */
     #portfolio h2 {
@@ -441,9 +421,8 @@ p {
 
     /* Hero image */
     #hero {
-        height: 500px;
-        width: 100%;
         background: url("../images/hero-image.webp") no-repeat center center/cover;
+        height: 30vh;
     }
 
 
@@ -482,7 +461,6 @@ p {
     #port-contact-list img {
         max-width: 200px;
     }
-
 
     /* Index Serra Content*/
     .serra-item {
@@ -577,10 +555,8 @@ p {
     }
 
     /* Hero image */
-
     #hero {
-        height: 500px;
-        width: 100%;
+        min-height: 50vh;
         background: url("../images/hero-image.webp") no-repeat center center/cover;
     }
 
@@ -622,6 +598,10 @@ p {
 /* Large devices (laptops and desktops, 1440px and up) */
 @media screen and (min-width: 1440px) {
 
+    /* Hero image */
+    #hero {
+        min-height: 70vh;
+    }
 
     /* Portfolio */
     #portfolio h2 {
@@ -673,7 +653,6 @@ p {
     .text-container p {
         font-size: 100%;
     }
-
 
 }
 

@@ -1,51 +1,69 @@
-# ***Photogragy Journey***
+# ***Photograghy Journey***
 
-Welcome to the Photography Journey project, a captivating exploration of moments captured amidst the stunning landscapes of Serra Gaúcha. This web application is a course project designed to showcase the incredible work of a friend and talented photographer Miguel , as they embark on a visual journey through the picturesque region.
+Welcome to Photography Journey, where Miguel, our talented photographer, captures the spontaneous beauty of people in the enchanting Serra Gaúcha. Each click tells a unique story against the backdrop of this picturesque region, inviting you to explore genuine moments frozen in time. Join us on this visual adventure through Miguel's lens.
 
 ## **Project Overview**
 
-# **Purpose:**
+## **Purpose:**
 
-The primary aim of the Photography Journey project is to celebrate the art of photography by encapsulating the essence of Serra Gaúcha through the lens of our dedicated photographer. This educational website serves as a platform to highlight the beauty of fleeting moments, offering a glimpse into the rich tapestry of life in this captivating Brazilian highland.
-
-# **Educational Focus:**
-
-As part of a course project, this website serves as an educational resource, demonstrating the application of web development skills to create an engaging online platform. Through the lens of our friend's photography, we aim to explore both the technical aspects of web design and the artistry of visual storytelling.
+As part of a course project, this website serves as an educational resource, demonstrating the application of web development skills to create an engaging online platform. Through the lens of our friend's photography, we aim to explore HTML/CSS features, creating an accessible and responsive design.
 
 ## **Existing features**
 
-
-
 ### **Navigation Bar**
+
 
 •	This is featured on all of the three pages of the website. The responsive navigation bar allows the user to move between the different pages easily without having to use the back button.
 •	It contains links to the Logo of the page, the Home page, Gallery page and the Contact page. Furthermore, when the Logo is clicked it takes the user to the home page.
-Navigation bar image
+
+![Navigation Bar](docs/readme_images/nav_bar_readme.jpg)
 
 ### **The landing page image**
 
-•	The hero image contains ….
-•	Add some quote to attach the user attention
-HERO IMAGE
+•	The hero image contains a picture from japanese gardens which is located in Gramado-RS.
+
+![Hero Image](docs/readme_images/hero_image_readme.jpg)
+
+### **Middle Art Links**
+
+• Art is located in the middle of the page for easier interaction to move to the portfolio and contact. 
+
+![Middle Link Art](docs/readme_images/middle_links.jpg)
 
 ### **The home page**
 
-The home page (Explain the sections)
-•	Section 1
-•	Section 2….
+The home page contains as two sections. 
+•	The Serra Gaúcha section presents to the user the project and also shows the photographer passion for the place and for the photography.
+•	The About Us section introduces the project owners trajectory, explaining where they come from and why they decided to to it.
 
-### **Types of meditation page**
+![Serra SEction](docs/readme_images/serra_readme.jpg)
+![About Us Section](docs/readme_images/about_us_readme.jpg)
 
-•	The contents of this page familiarize the user to the different types of meditation and explain how the user can practice each meditation.
+### **Portfolio page**
+
+• The content of this page is for a quick tour througth a few experiences and as a show case.
+
+![PortFolio Page](docs/readme_images/portfolio_readme.jpg)
 
 ### **The contact page**
 
-•	Write about the contact page
+•	The contact page has a background image, also a complete contact form to the user ask questions or make quotes.
+
+    ○ A contact form will be implemented to allow users to contact 'Photography Journey'. The form will consist of the following fields and attributes:
+        ►First Name (required, type=text)
+        ►Last Name (required, type=text)
+        ►Email (required, type=email)
+        ►Phone (required, type=tel, patern=[0-9], inputmode= numeric)
+        ►Message (required, type=textarea, max=500)
+    On successful submission of the contact form, the user will be navigated to contact.html displaying a success message Showing what data has been sent.
+ 
+![Contact Page](docs/readme_images/contact_readme.jpg)
 
 ### **The footer section**
 
-•	This section contains clickable links to Facebook, Instagram and whats app for contact
-•	The user can use this to see the gallery, portfolio or contact for a quote.
+•	This section contains clickable links to Facebook, Instagram and Whatsapp for contact
+
+
 Footer Image
 
 ## **Testing**

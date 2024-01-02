@@ -1,96 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8" />
+  <head>
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Meta tags for search Engines-->
     <meta name="description" content="Photography Journey, Gramado">
-    <meta name="keywords"
-        content="Photography, fotografo, gramado fotografia, gramado fotografo, photografer Gramado, rio grande do sul, inverno, verao">
+    <meta
+      name="keywords"
+      content="Photography, fotografo, gramado fotografia, gramado fotografo, photografer Gramado, rio grande do sul, inverno, verao"
+    >
     <!-- Title -->
     <title>Photography Journey</title>
     <!--Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon/apple-touch-icon.png"
+    >
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon/favicon-32x32.png"
+    >
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon/favicon-16x16.png"
+    >
     <!--  Fonts link here -->
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&family=Kalam:wght@300;400;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200&display=swap"
-        style="font-display: swap;">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@400&family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200&display=swap"
+    >
     <!-- Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
-</head>
-
-<body id="contact-page" >
+  </head>
+  <body id="contact-page">
     <!-- Header-->
     <header>
-        <a href="index.html">
-            <img src="assets/images/logo-journey.webp" alt="Jornada Header Image">
-        </a>
-        <input type="checkbox" id="nav-toggle" name="nav-toggle">
-        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
-        <nav>
-            <ul id="menu">
-                <li><a href="index.html" >Home</a></li>
-                <li><a href="index.html#about-us">About Us</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html" class="active">Contact</a></li>
-            </ul>
-        </nav>
+      <a href="index.html">
+        <img src="assets/images/logo-journey.webp" alt="Jornada Header Image">
+      </a>
+      <input type="checkbox" id="nav-toggle" name="nav-toggle">
+      <label for="nav-toggle" class="nav-toggle-label"
+        ><i class="fa-solid fa-bars"></i
+      ></label>
+      <nav>
+        <ul id="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#about-us">About Us</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
     </header>
     <!--Main Content-->
     <main>
-     <section id="contact">
-        <form id="contact-form" method="post" action="https://formdump.codeinstitute.net">
-        <h2></i> Contact us ♥</h2>
-        <label for="first_name">First Name:</label>
-        <input type="text" name="first_name" id="first_name" class="text-input" required>
-        <br>
-        <label for="last_name">Last Name</label>
-        <input type="text" name="last_name" id="last_name" class="text-input" required>
-        <br>
-        <label for="email_address">Email Address:</label>
-        <input type="email" name="email_address" id="email_address" class="text-input" required>
-        <br>
-        <label for="contact_number">Contact Number:</label>
-        <input type="tel" class="text-input" name="contact_number" id="contact_number" pattern="[0-9]+" title="Please enter only numbers" inputmode="numeric"class="text-input" required>
-        <br>
-        <label for="extra_info">Additional Information (up to 500 characters):</label>
-        <textarea id="extra_info"  class="extra-input" name="extra_info" placeholder="Enter here any extra information (max 500 characters)"
-            maxlength="500" rows="3" required></textarea>
-        <br>
-        <button type="submit" class="contact-button">Send us your request!</button>          
+      <section id="contact">
+        <form
+          id="contact-form"
+          method="post"
+          action="https://formdump.codeinstitute.net"
+        >
+          <h2>Contact us ♥</h2>
+          <label for="first_name">First Name:</label>
+          <input
+            type="text"
+            name="first_name"
+            id="first_name"
+            class="text-input"
+            required
+          >
+          <br>
+          <label for="last_name">Last Name</label>
+          <input
+            type="text"
+            name="last_name"
+            id="last_name"
+            class="text-input"
+            required
+          >
+          <br>
+          <label for="email_address">Email Address:</label>
+          <input
+            type="email"
+            name="email_address"
+            id="email_address"
+            class="text-input"
+            required
+          >
+          <br>
+          <label for="contact_number">Contact Number:</label>
+          <input
+            type="tel"
+            class="text-input"
+            name="contact_number"
+            id="contact_number"
+            pattern="[0-9]+"
+            title="Please enter only numbers"
+            inputmode="numeric"
+            required
+          >
+          <br>
+          <label for="extra_info"
+            >Additional Information (up to 500 characters):</label
+          >
+          <textarea
+            id="extra_info"
+            class="extra-input"
+            name="extra_info"
+            placeholder="Enter here any extra information (max 500 characters)"
+            maxlength="500"
+            rows="3"
+            required
+          ></textarea>
+          <br>
+          <button type="submit" class="contact-button">
+            Send us your request!
+          </button>
         </form>
-     </section>
+      </section>
     </main>
     <!--Footer-->
     <footer>
-        <ul id="social-networks">
-            <li>
-                <a href="https://www.instagram.com/jornadafotografiaoficial/" target="_blank" rel="noopener"
-                    aria-label="Visit our Instagram page (opens in a new tab)">
-                    <i class="fa-brands fa-square-instagram" style="color: #e12375;"></i>
-                </a>
-            </li>
-            <li>
-                <a href="https://www.facebook.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook page (opens in a new tab)">
-                    <i class="fa-brands fa-square-facebook" style="color: #0c5eeb;"></i>
-                </a>
-            </li>
-            <li>
-                <a href="wa.me/5551999142035" target="_blank" rel="noopener"
-                    aria-label="Contact us on WhatsApp (opens in a new tab)">
-                    <i class="fa-brands fa-square-whatsapp" style="color: #1fad70;"></i>
-                </a>
-            </li>
-        </ul>
-        </ul>
+      <ul id="social-networks">
+        <li>
+          <a
+            href="https://www.instagram.com/jornadafotografiaoficial/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Instagram page (opens in a new tab)"
+          >
+            <i class="fa-brands fa-square-instagram" style="color: #e12375"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.facebook.com"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Facebook page (opens in a new tab)"
+          >
+            <i class="fa-brands fa-square-facebook" style="color: #0c5eeb"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            href="wa.me/5551999142035"
+            target="_blank"
+            rel="noopener"
+            aria-label="Contact us on WhatsApp (opens in a new tab)"
+          >
+            <i class="fa-brands fa-square-whatsapp" style="color: #1fad70"></i>
+          </a>
+        </li>
+      </ul>
     </footer>
     <!-- Font Awesome kit -->
-    <script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://kit.fontawesome.com/3b20d96fa9.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

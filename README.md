@@ -66,18 +66,23 @@ The home page contains as two sections.
 ## **Testing**
 
 •	This page works on different browsers: Chrome, Microsoft Edge, Firefox.
+
 •	On smaller screen sizes the logo is located at the top of the navigation bar and has a toogle Navigation bar.
+
 •	It have beem checked if is responsive, works and looks good on the standard screen sizes (ipad, MotoG4, iphone6/7/8, iphone5/SE and Galaxy S5) using the devtools device toolbar.
-•	I have checked that the above mentioned features work as expected, the form requires entry on each field, the email field accepts only email address and the checkbox requires that the user checks it before submission, and the submit button allows the user to submit feedback.
+
+•	The form features have been checked and work as expected, the form requires entry on each field, and the email field accepts only email addresses, only numbers for phone numbers also the output has been tested as shown in the image below.
+
+![Form Test](docs/readme_images/forms_test.jpg)
+![Form Sent](docs/readme_images/forms_sent.jpg)
 
 ### **Validator Testing**
 
 •	HTML
-o	Errors were detected when passing through the official W3C validator and they are corrected. There was a warning but it was not relevant to the indicated section of the code.
- 		Validation links
+ 	Validation links
+    
 •	CSS
-o	Errors were detected when passing through the official (Jigsaw) validator and they are corrected.
-CSS validation
+![CSS Validation](docs/readme_images/css_validation.jpg)
 
 ## **Accessibility**
 

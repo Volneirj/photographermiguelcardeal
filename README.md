@@ -55,22 +55,19 @@ The home page contains as two sections.
         ►Email (required, type=email)
         ►Phone (required, type=tel, patern=[0-9], inputmode= numeric)
         ►Message (required, type=textarea, max=500)
-    On successful submission of the contact form, the user will be navigated to contact.html displaying a success message Showing what data has been sent.
- 
+    On successful submission of the contact form, the user will be navigated to contact.html displaying a success message Showing what data has been sent. 
 ![Contact Page](docs/readme_images/contact_readme.jpg)
 
 ### **The footer section**
 
 •	This section contains clickable links to Facebook, Instagram and Whatsapp for contact
-
-
-Footer Image
+![Contact Page](docs/readme_images/footer_readme.jpg)
 
 ## **Testing**
 
 •	This page works on different browsers: Chrome, Microsoft Edge, Firefox.
-•	On smaller screen sizes the logo is located at the top of the navigation bar.
-•	I checked that the page is responsive, works and looks good on the standard screen sizes (ipad, MotoG4, iphone6/7/8, iphone5/SE and Galaxy S5) using the devtools device toolbar.
+•	On smaller screen sizes the logo is located at the top of the navigation bar and has a toogle Navigation bar.
+•	It have beem checked if is responsive, works and looks good on the standard screen sizes (ipad, MotoG4, iphone6/7/8, iphone5/SE and Galaxy S5) using the devtools device toolbar.
 •	I have checked that the above mentioned features work as expected, the form requires entry on each field, the email field accepts only email address and the checkbox requires that the user checks it before submission, and the submit button allows the user to submit feedback.
 
 ### **Validator Testing**

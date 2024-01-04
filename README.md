@@ -105,6 +105,19 @@ Contact Pre Design
 •	Canvas
     ○○ Wireframes/Pre design/ARts were created using canvas from canva.com
 
+## **Existing Features**
+
+    •Responsive design
+    •Small Portfolio images
+    •Contact form   
+
+## **Existing Features**
+
+    • As a future enhancement, the website will be updated with javascript to a better experience and more interactive design.
+    • Portfolio will be expanded creating a single page for types of product.
+    • Create a confirmation page for the form sent
+    • Multi Language - Portuguese, English, Spanish
+
 ## **Testing**
 
 •	This page works on different browsers: Chrome, Microsoft Edge, Firefox.
@@ -135,6 +148,8 @@ Contact Pre Design
 
 ## **Accessibility**
 
+For a better performance and keep quality on mobile or small screens the images have 3 sizes normal,small and large.
+
 ### **Home page accessibility**
 
 ![Home Test](docs/readme_images/index_test.jpg)
@@ -145,7 +160,7 @@ Contact Pre Design
 
 ### **Contact page accessibility**
 
-![Home Test](docs/readme_images/contact_test.jpg)
+![Contact Test](docs/readme_images/contact_test.jpg)
 
 ## **Unfixed bugs**
 
@@ -159,11 +174,25 @@ No bugs were detected
 
 ►From the source section drop-down menu, select the Master or Main Branch
 
-►Once the master or main branch has been selected, the page will be automatically 
-refreshed with a detailed ribbon display to indicate the successful deployment.
+►Once the master or main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
 ►The live link can be found here: [GitHub Link](https://github.com/Volneirj/photographermiguelcardeal)
 
 ## **Credits**
 
+1. Love running walkthrough from [Code Institute](https://learn.codeinstitute.net/).
+
+2. **AI Search Engine:**
+   - [OpenAI Chat](https://chat.openai.com/)
+   - [Perplexity AI](https://www.perplexity.ai/)
+
+3. **Readme References:**
+   - [John Meditation GitHub](https://github.com/Joh201/john-meditation)
+
+4. **Code Validation:**
+   - [W3C Jigsaw Validator](https://jigsaw.w3.org/)
+
+
 ### **Content**
+
+All content were made by Photography Journey, and all media were made by Miguel Cardeal. Permission was granted from Miguel Souza Cardeal(@Cardealfotografias).

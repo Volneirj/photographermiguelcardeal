@@ -80,7 +80,13 @@ The home page contains as two sections.
 
 •	HTML
  	Validation links
+    [Home Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fvolneirj.github.io%2Fphotographermiguelcardeal%2F)
+
+    [Portfolio Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fvolneirj.github.io%2Fphotographermiguelcardeal%2Fportfolio.html)
+
+    [Contact Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fvolneirj.github.io%2Fphotographermiguelcardeal%2Fcontact.html)
     
+
 •	CSS
 ![CSS Validation](docs/readme_images/css_validation.jpg)
 

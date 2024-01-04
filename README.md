@@ -12,7 +12,6 @@ As part of a course project, this website serves as an educational resource, dem
 
 ### **Navigation Bar**
 
-
 •	This is featured on all of the three pages of the website. The responsive navigation bar allows the user to move between the different pages easily without having to use the back button.
 •	It contains links to the Logo of the page, the Home page, Gallery page and the Contact page. Furthermore, when the Logo is clicked it takes the user to the home page.
 
@@ -49,19 +48,37 @@ The home page contains as two sections.
 
 •	The contact page has a background image, also a complete contact form to the user ask questions or make quotes.
 
-    ○ A contact form will be implemented to allow users to contact 'Photography Journey'. The form will consist of the following fields and attributes:
-        ►First Name (required, type=text)
-        ►Last Name (required, type=text)
-        ►Email (required, type=email)
-        ►Phone (required, type=tel, patern=[0-9], inputmode= numeric)
-        ►Message (required, type=textarea, max=500)
-    On successful submission of the contact form, the user will be navigated to contact.html displaying a success message Showing what data has been sent. 
+ A contact form will be implemented to allow users to contact 'Photography Journey'. The form will consist of the following fields and attributes:
+
+ ►First Name (required, type=text)
+
+ ►Last Name (required, type=text)
+
+ ►Email (required, type=email)
+
+ ►Phone (required, type=tel, patern=[0-9], inputmode= numeric)
+
+ ►Message (required, type=textarea, max=500)
+ 
+On successful submission of the contact form, the user will be navigated to contact.html displaying a success message Showing what data has been sent. 
+
 ![Contact Page](docs/readme_images/contact_readme.jpg)
 
 ### **The footer section**
 
 •	This section contains clickable links to Facebook, Instagram and Whatsapp for contact
 ![Contact Page](docs/readme_images/footer_readme.jpg)
+
+## **Design**
+
+Home Page Pre Design
+![Home Pre Design](docs/readme_images/home_frame.jpg)
+About us Pre Design
+![About Us Pre Design](docs/readme_images/about_us_frame.jpg)
+Portfolio Pre Design
+![Portfolio Pre Design](docs/readme_images/portfolio_frame.jpg)
+Contact Pre Design
+![Contact Pre Design](docs/readme_images/contact_frame.jpg)
 
 ## **Testing**
 
@@ -80,23 +97,30 @@ The home page contains as two sections.
 
 •	HTML
  	Validation links
-    [Home Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fvolneirj.github.io%2Fphotographermiguelcardeal%2F)
 
-    [Portfolio Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fvolneirj.github.io%2Fphotographermiguelcardeal%2Fportfolio.html)
+[Home Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fvolneirj.github.io%2Fphotographermiguelcardeal%2F)
 
-    [Contact Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fvolneirj.github.io%2Fphotographermiguelcardeal%2Fcontact.html)
-    
+[Portfolio Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fvolneirj.github.io%2Fphotographermiguelcardeal%2Fportfolio.html)
+
+[Contact Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fvolneirj.github.io%2Fphotographermiguelcardeal%2Fcontact.html)
 
 •	CSS
+
 ![CSS Validation](docs/readme_images/css_validation.jpg)
 
 ## **Accessibility**
 
 ### **Home page accessibility**
 
-### **Gallery page accessibility**
+![Home Test](docs/readme_images/index_test.jpg)
+
+### **Portfolio page accessibility**
+
+![Portfolio Test](docs/readme_images/portfolio_test.jpg)
 
 ### **Contact page accessibility**
+
+![Home Test](docs/readme_images/contact_test.jpg)
 
 ## **Unfixed bugs**
 
@@ -108,7 +132,7 @@ No bugs were detected
 o	In the GitHub repository, navigate to the Settings tab
 o	From the source section drop-down menu, select the Master or Main Branch
 o	Once the master or main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-The live link can be found here:  
+The live link can be found here: [GitHub Link](https://github.com/Volneirj/photographermiguelcardeal)
 
 ## **Credits**
 

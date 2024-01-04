@@ -2,6 +2,8 @@
 
 Welcome to Photography Journey, where Miguel, our talented photographer, captures the spontaneous beauty of people in the enchanting Serra Gaúcha. Each click tells a unique story against the backdrop of this picturesque region, inviting you to explore genuine moments frozen in time. Join us on this visual adventure through Miguel's lens.
 
+![Home Pre Design](docs/readme_images/responsive.jpg)
+
 ## **Project Overview**
 
 ## **Purpose:**
@@ -25,7 +27,7 @@ As part of a course project, this website serves as an educational resource, dem
 
 ### **Middle Art Links**
 
-• Art is located in the middle of the page for easier interaction to move to the portfolio and contact. 
+• Art is located in the middle of the page for easier interaction to move to the portfolio and contact.
 
 ![Middle Link Art](docs/readme_images/middle_links.jpg)
 

@@ -1,3 +1,7 @@
+/* Google Fo
+
+
+
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
     padding: 0;
@@ -113,7 +117,6 @@ main {
     background-position: 75%;
     padding: 20px 10% 0 10%;
     flex-grow: 1;
-    min-height: 100vh;
 }
 
 #contact-form {
@@ -425,12 +428,11 @@ p {
         height: 30vh;
     }
 
-
     /* Contact Page */
     /* forms */
 
     #contact {
-        background-position: center center;
+        background-position: center top;
         background-image: url("../images/contact-image.webp");
         background-size: cover;
         position: relative;
@@ -663,28 +665,15 @@ p {
     .image-size {
         max-width: 600px;
         max-height: 600px;
-
     }
 
-}
-
-/* Special Situation (Landscape bigger than 768px) */
-
-@media screen and (min-width: 768px) and (orientation: landscape) {
-
-    /* Contact pager */
-    #contact {
-        min-height: 200vh;
-    }
 }
 
 /* Special Situation (Landscape bigger than 2000px) */
-
 @media screen and (min-width: 2000px) and (orientation: landscape) {
 
     /* Contact page */
     #contact {
-        min-height: 250vh;
         background-image: url("../images/contact-image-large.webp");
     }
 }

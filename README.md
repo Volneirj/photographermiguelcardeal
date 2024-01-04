@@ -89,12 +89,6 @@ As part of a course project, this website serves as an educational resource, dem
 - Favicon.io: Favicon creation.
 - Canvas: Wireframes/Pre-design/Arts created using canvas from canva.com
 
-## Existing Features
-
-- Responsive design
-- Small portfolio images
-- Contact form
-
 ## Future Enhancements
 
 - Implementation of JavaScript for a better experience and more interactive design.

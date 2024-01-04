@@ -82,6 +82,29 @@ Portfolio Pre Design
 Contact Pre Design
 ![Contact Pre Design](docs/readme_images/contact_frame.jpg)
 
+## **Technologies**
+
+•	HTML
+    ○The structure of the Website was developed using HTML as the main language.
+•	CSS
+    ○The Website was styled using custom CSS in an external file.
+•	CodeAnywhere.com
+    ○The website was developed using Codeanywhere online IDE
+•	GitHub
+    ○Source code is hosted on GitHub and delpoyed using Git Pages.
+•	Git
+    ○Used to commit and push code during the development opf the Website
+•	Font Awesome
+    ○Icons obtained from https://fontawesome.com/ were used as the Social media links in the footer section.
+•	Iloveimg
+    ○https://www.iloveimg.com/ was used to reduce the size of the images used throughout the website
+•	Cloudconvert
+    ○https://cloudconvert.com/ was used to convert imaged to webp
+•	Favicon.io
+    ○Favicon files were created at https://favicon.io/favicon-converter/
+•	Canvas
+    ○○ Wireframes/Pre design/ARts were created using canvas from canva.com
+
 ## **Testing**
 
 •	This page works on different browsers: Chrome, Microsoft Edge, Firefox.
@@ -130,11 +153,16 @@ No bugs were detected
 
 ## **Deployment**
 
-•	The site was deployed to GitHub pages as follows:
-o	In the GitHub repository, navigate to the Settings tab
-o	From the source section drop-down menu, select the Master or Main Branch
-o	Once the master or main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-The live link can be found here: [GitHub Link](https://github.com/Volneirj/photographermiguelcardeal)
+• The site was deployed to GitHub pages as follows:
+
+►In the GitHub repository, navigate to the Settings tab
+
+►From the source section drop-down menu, select the Master or Main Branch
+
+►Once the master or main branch has been selected, the page will be automatically 
+refreshed with a detailed ribbon display to indicate the successful deployment.
+
+►The live link can be found here: [GitHub Link](https://github.com/Volneirj/photographermiguelcardeal)
 
 ## **Credits**
 

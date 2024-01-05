@@ -159,56 +159,50 @@ As part of a course project, this website serves as an educational resource, dem
 
 ## Deployment
 
-Deployment
-I deployed this website by using GitPages and following the below steps:
+- **Deploying the project on Github**
+  You can deploy this website by using GitPages and following the below steps:
 
-GitHub pages deployment
-
-Log in to GitHub
-In your Repository section, select the project repository that you want to deploy
-In the menu located at the top of this section, click 'Settings'
-Select 'Pages' on the left-hand menu - this is around halfway down
-In the source section, select branch 'Main' and save
-The page is then given a site URL which you will see above the source section, it will look like the following:
+  1. Log in to GitHub
+  2. In your Repository section, select the project repository that you want to deploy
+  3. In the menu located at the top of this section, click 'Settings'
+  4. Select 'Pages' on the left-hand menu - this is around halfway down
+  5. In the source section, select branch 'Main' and save
+  6. The page is then given a site URL which you will see above the source section, it will look like the following:
 
 ![Deployment](docs/readme_images/deploy.jpg)
 
-**Forking the GitHub Repository**
+- **Forking the GitHub Repository**
+  If you want to make changes to your repository without affecting it, you can make a copy of it by 'Forking' it. This ensures your original repository remains unchanged.
 
-If you want to make changes to your repository without affecting it, you can make a copy of it by 'Forking' it. This ensures your original repository remains unchanged.
+  1. Find the relevant GitHub repository
+  2. In the top right corner of the page, click the Fork button (under your account)
+  3. Your repository has now been 'Forked' and you have a copy to work on
 
-Find the relevant GitHub repository
-In the top right corner of the page, click the Fork button (under your account)
-Your repository has now been 'Forked' and you have a copy to work on
-Cloning the GitHub Repository
+- **Cloning the GitHub Repository**
+  Cloning your repository will allow you to download a local version of the repository to be worked on. Cloning can also be a great way to backup your work.
 
-**Cloning the GitHub Repository**
-
-Cloning your repository will allow you to download a local version of the repository to be worked on. Cloning can also be a great way to backup your work.
-
-Find the relevant GitHub repository
-Press the arrow on the Code button
-Copy the link that is shown in the drop-down
-Open the terminal 
-Move to the folder you want clone it
-In the terminal type 'git clone' & then paste the link you copied in GitHub
-Press enter and your local clone will be created.
-
+  1. Find the relevant GitHub repository
+  2. Press the arrow on the Code button
+  3. Copy the link that is shown in the drop-down
+  4. Open the terminal 
+  5. Move to the folder you want clone it
+  6. In the terminal type 'git clone' & then paste the link you copied in GitHub
+  7. Press enter and your local clone will be created.
 - Live link: [GitHub Link](https://github.com/Volneirj/photographermiguelcardeal)
 
 ## Credits
 
 1. **Base Code reference** 
     - I leveraged the Love Running project as a foundational template for developing my code. Drawing upon the knowledge acquired during the project walkthrough, I applied key concepts and techniques to tailor the code to my specific needs. Additionally, I referred to the source code for troubleshooting and resolving issues in my implementation. The Code Institute's learning platform [Code Institute](https://learn.codeinstitute.net/). served as a valuable resource throughout this process."
-3. **AI Search Engine:**
+2. **AI Search Engine:**
    - [OpenAI Chat](https://chat.openai.com/)
    - [Perplexity AI](https://www.perplexity.ai/)
-4. **Readme References:**
+3. **Readme References:**
    - [John Meditation GitHub](https://github.com/Joh201/john-meditation)
    - [La Petite Traveller GitHub](https://github.com/daisygunn/la-petite-traveller)
-5. **Code Validation:**
+4. **Code Validation:**
    - [W3C Jigsaw Validator](https://jigsaw.w3.org/)
 
 ### Content
 
-All content was created by Photography Journey, and all media were made by Miguel Cardeal. Permission was granted from Miguel Souza Cardeal (@Cardealfotografias).
+All content was created by Photography Journey, and all media were made by Miguel Cardeal. Permission was granted from Miguel Souza Cardeal [@Cardealfotografias](https://www.instagram.com/cardealfotografias/).

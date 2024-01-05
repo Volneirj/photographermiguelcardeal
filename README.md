@@ -100,9 +100,14 @@ As part of a course project, this website serves as an educational resource, dem
 
 ## Testing
 
-- Works on different browsers: Chrome, Microsoft Edge, Firefox.
+- The website has been tested changing the sizes and using navigation bar on follow browsers: Chrome, Microsoft Edge,Opera, Firefox.
+- For mobile test, it has been tested using Google Chrome Devtools, also tested on my personal mobile Xiami 11 pro, on mobiles bigger than 768 pixels using the landscape mode the page contact could have a small issue where will be addressed in the Unfixed and fixed bugs topic.
 - Responsive design on standard screen sizes using devtools device toolbar.
-- Form features have been checked and work as expected.
+- On the contact page, on the form had been checked:
+  1. Not accepted been sent missing information.
+  2. The email input only accepted email format.
+  3. The phone number only accepted numbers.
+  4. The form information was been recorded correct.
 
 ![Form Test](docs/readme_images/forms_test.jpg)
 ![Form Sent](docs/readme_images/forms_sent.jpg)
@@ -111,7 +116,7 @@ As part of a course project, this website serves as an educational resource, dem
 
 #### HTML
 
-- Using the [Markup Validation Service](https://validator.w3.org), through the URL option has been checked all pages and the results can be found bellow. During the tests few issues has been found and they will be adressed in the Bugs and fixed topics.
+- Using the [Markup Validation Service](https://validator.w3.org), through the URL option has been checked all pages and the results can be found bellow. During the tests few issues has been found and they will be adressed in the Unfixed and fixed bugs topic.
 
 - [Home Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fvolneirj.github.io%2Fphotographermiguelcardeal%2F)
 - [Portfolio Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fvolneirj.github.io%2Fphotographermiguelcardeal%2Fportfolio.html)
@@ -141,7 +146,16 @@ As part of a course project, this website serves as an educational resource, dem
 
 ## Unfixed and fixed Bugs
 
-- 
+  1. **Cache Control Performance Enhancement:**
+     - **Issue**: After implementing cache control for performance enhancement, the webpage showed a slight improvement of 1 or 2 points. However, upon inspecting the HTML code, errors were found in the line where the cache control was implemented.
+     - **Visual Reference**
+    ![Cache error](docs/readme_images/error_cache.jpg)
+
+  2. **Landscape Mode Issue:**
+     - **Issue**: Testing the website on Google Chrome in landscape mode revealed an issue affecting the contact page. Attempting to resolve this, a new media query for landscape was added. However, this had unintended consequences, deforming the image even on desktop.
+     - **Proposed Fix**: Considering a future implementation for the final website version outside the course project, a potential solution is to change the background image to a wider one. This would eliminate the need for extensive control over its position.
+     - **Visual Reference**
+    ![Landscape Issue](docs/readme_images/landscape_issue.jpg)
 
 ## Deployment
 

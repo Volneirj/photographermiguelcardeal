@@ -614,14 +614,17 @@ p {
     #image-miguel,
     #singular-photo-bg,
     #family-photo-bg {
-        margin: 15%;
+        margin-left: 15%;
+        margin-bottom: 5%;
 
     }
 
     #image-debora,
     #couple-photo-bg,
     #kids-photo-bg {
-        margin: 15%;
+        margin-right: 15%;
+        margin-top: 5%;
+        margin-bottom: 5%;
     }
 
     #image-miguel,

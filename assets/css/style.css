@@ -118,6 +118,13 @@ main {
     flex-grow: 1;
 }
 
+form label,
+form input,
+form textarea,
+form button {
+    font-weight: bold;
+}
+
 #contact-form {
     color: #ffffff;
     background-color: rgba(60, 60, 60, 0.6);

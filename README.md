@@ -148,6 +148,7 @@ As part of a course project, this website serves as an educational resource, dem
 
   1. **Cache Control Performance Enhancement:**
      - **Issue**: After implementing cache control for performance enhancement, the webpage showed a slight improvement of 1 or 2 points. However, upon inspecting the HTML code, errors were found in the line where the cache control was implemented.
+     - **Implemented Fix**: Considering it was showing an error when validate the html code. I decided to research and sort out this issue, as already implemented the cache control I did not want remove it, so I found someone with a similar issue on [StackOverFlow Forum](https://stackoverflow.com/questions/12498017/http-cache-headers-with-htaccess), and adpated it to my project adding the .htaccess to it.
      - **Visual Reference**
     ![Cache error](docs/readme_images/error_cache.jpg)
 

@@ -1,3 +1,11 @@
-<FilesMatch "\.(jpg|jpeg|png|gif|webp)$">
-    Header set Cache-Control "max-age=604800, public"
-</FilesMatch>
+<IfModule mod_headers.c>
+    # Cache control for images (jpg, jpeg, png, gif, webp)
+    <FilesMatch "\.(jpg|jpeg|png|gif|webp)$">
+        Header set Cache-Control "max-age=604800, public"
+    </FilesMatch>
+
+    # Cache control for JavaScript, CSS, and SWF files
+    <FilesMatch "\.(js|css|swf)$">
+        Header set Cache-Control "max-age=604800"
+    </FilesMatch>
+</IfModule>

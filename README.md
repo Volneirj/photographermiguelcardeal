@@ -130,7 +130,7 @@ As part of a course project, this website serves as an educational resource, dem
 
 ## Accessibility
 
-- Using the lighthouse devtool from google Chrome, the performance, accessibility has been enchanced, also for better performance on small screems the images has been recized in three sizes, x-small, small, and the normal size.
+- Using the lighthouse Developer Tool from google Chrome, the performance, accessibility has been enchanced, also for better performance on small screems the images has been recized in three sizes, x-small, small, and the normal size.
 
 ### Home page accessibility
 

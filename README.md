@@ -2,6 +2,8 @@
 
 Welcome to Photography Journey, where Miguel, our talented photographer, captures the spontaneous beauty of people in the enchanting Serra Gaúcha. Each click tells a unique story against the backdrop of this picturesque region, inviting you to explore genuine moments frozen in time. Join us on this visual adventure through Miguel's lens.
 
+[Photography Journey WebSite](https://volneirj.github.io/photographermiguelcardeal/)
+
 ![Home Pre Design](docs/readme_images/responsive.jpg)
 
 ## Project Overview
@@ -109,17 +111,21 @@ As part of a course project, this website serves as an educational resource, dem
 
 #### HTML
 
+- Using the [Markup Validation Service](https://validator.w3.org), through the URL option has been checked all pages and the results can be found bellow. During the tests few issues has been found and they will be adressed in the Bugs and fixed topics.
+
 - [Home Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fvolneirj.github.io%2Fphotographermiguelcardeal%2F)
 - [Portfolio Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fvolneirj.github.io%2Fphotographermiguelcardeal%2Fportfolio.html)
 - [Contact Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fvolneirj.github.io%2Fphotographermiguelcardeal%2Fcontact.html)
 
 #### CSS
 
+- Using the [Markup Validation Service](https://validator.w3.org), through the direct input option the CSS code has been checked looking for errors.
+
 ![CSS Validation](docs/readme_images/css_validation.jpg)
 
 ## Accessibility
 
-- Images have three sizes for better performance on mobile or small screens.
+- Using the lighthouse devtool from google Chrome, the performance, accessibility has been enchanced, also for better performance on small screems the images has been recized in three sizes, x-small, small, and the normal size.
 
 ### Home page accessibility
 
@@ -133,24 +139,60 @@ As part of a course project, this website serves as an educational resource, dem
 
 ![Contact Test](docs/readme_images/contact_test.jpg)
 
-## Unfixed Bugs
+## Unfixed and fixed Bugs
 
-No bugs were detected.
+- 
 
 ## Deployment
 
-- Deployed to GitHub Pages.
+Deployment
+I deployed this website by using GitPages and following the below steps:
+
+GitHub pages deployment
+
+Log in to GitHub
+In your Repository section, select the project repository that you want to deploy
+In the menu located at the top of this section, click 'Settings'
+Select 'Pages' on the left-hand menu - this is around halfway down
+In the source section, select branch 'Main' and save
+The page is then given a site URL which you will see above the source section, it will look like the following:
+
+![Deployment](docs/readme_images/deploy.jpg)
+
+**Forking the GitHub Repository**
+
+If you want to make changes to your repository without affecting it, you can make a copy of it by 'Forking' it. This ensures your original repository remains unchanged.
+
+Find the relevant GitHub repository
+In the top right corner of the page, click the Fork button (under your account)
+Your repository has now been 'Forked' and you have a copy to work on
+Cloning the GitHub Repository
+
+**Cloning the GitHub Repository**
+
+Cloning your repository will allow you to download a local version of the repository to be worked on. Cloning can also be a great way to backup your work.
+
+Find the relevant GitHub repository
+Press the arrow on the Code button
+Copy the link that is shown in the drop-down
+Open the terminal 
+Move to the folder you want clone it
+In the terminal type 'git clone' & then paste the link you copied in GitHub
+Press enter and your local clone will be created.
+
 - Live link: [GitHub Link](https://github.com/Volneirj/photographermiguelcardeal)
 
 ## Credits
 
-1. Love running walkthrough from [Code Institute](https://learn.codeinstitute.net/).
-2. **AI Search Engine:**
+1. **Base Code reference** 
+    - I leveraged the Love Running project as a foundational template for developing my code. Drawing upon the knowledge acquired during the project walkthrough, I applied key concepts and techniques to tailor the code to my specific needs. Additionally, I referred to the source code for troubleshooting and resolving issues in my implementation. The Code Institute's learning platform [Code Institute](https://learn.codeinstitute.net/). served as a valuable resource throughout this process."
+3. **AI Search Engine:**
    - [OpenAI Chat](https://chat.openai.com/)
    - [Perplexity AI](https://www.perplexity.ai/)
-3. **Readme References:**
+4. **Readme References:**
    - [John Meditation GitHub](https://github.com/Joh201/john-meditation)
-4. **Code Validation:**
+   - [La Petite Traveller GitHub](https://github.com/daisygunn/la-petite-traveller)
+5. **Code Validation:**
    - [W3C Jigsaw Validator](https://jigsaw.w3.org/)
 
 ### Content

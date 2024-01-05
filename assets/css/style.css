@@ -111,7 +111,7 @@ main {
 /* Contact Page */
 /* Form */
 #contact {
-    background-image: url("../images/contact-image.webp");
+    background-image: url("../images/contact-image-small.webp");
     background-size: cover;
     background-position: 75%;
     padding: 20px 10% 0 10%;
@@ -234,12 +234,12 @@ p {
 }
 
 #serra-photo1-bg {
-    background: url("../images/image1.webp") no-repeat center center/cover;
+    background: url("../images/image1-small.webp") no-repeat center center/cover;
     border-radius: 50%;
 }
 
 #serra-photo2-bg {
-    background: url("../images/image2.webp") no-repeat center center/cover;
+    background: url("../images/image2-small.webp") no-repeat center center/cover;
     border-radius: 50%;
 }
 
@@ -335,19 +335,19 @@ p {
 }
 
 #singular-photo-bg {
-    background: url("../images/singular-photo.webp") no-repeat center center/cover;
+    background: url("../images/singular-photo-small.webp") no-repeat center center/cover;
 }
 
 #couple-photo-bg {
-    background: url("../images/couple-photo.webp") no-repeat center center/cover;
+    background: url("../images/couple-photo-small.webp") no-repeat center center/cover;
 }
 
 #family-photo-bg {
-    background: url("../images/family-photo.webp") no-repeat center center/cover;
+    background: url("../images/family-photo-small.webp") no-repeat center center/cover;
 }
 
 #kids-photo-bg {
-    background: url("../images/kids-photo.webp") no-repeat center center/cover;
+    background: url("../images/kids-photo-small.webp") no-repeat center center/cover;
 }
 
 /* Footer */
@@ -434,6 +434,16 @@ p {
         height: 30vh;
     }
 
+    #serra-photo1-bg {
+        background: url("../images/image1.webp") no-repeat center center/cover;
+        border-radius: 50%;
+    }
+    
+    #serra-photo2-bg {
+        background: url("../images/image2.webp") no-repeat center center/cover;
+        border-radius: 50%;
+    }
+
     /* Contact Page */
     /* forms */
 
@@ -509,6 +519,21 @@ p {
         font-size: 200%;
     }
 
+    #singular-photo-bg {
+        background: url("../images/singular-photo.webp") no-repeat center center/cover;
+    }
+    
+    #couple-photo-bg {
+        background: url("../images/couple-photo.webp") no-repeat center center/cover;
+    }
+    
+    #family-photo-bg {
+        background: url("../images/family-photo.webp") no-repeat center center/cover;
+    }
+    
+    #kids-photo-bg {
+        background: url("../images/kids-photo.webp") no-repeat center center/cover;
+    }
 
     .portfolio-item {
         flex-direction: row;

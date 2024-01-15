@@ -221,7 +221,6 @@ p {
     font-size: large;
 }
 
-
 /* Index Image size control */
 .image-size {
     max-width: 300px;
@@ -234,12 +233,12 @@ p {
 }
 
 #serra-photo1-bg {
-    background: url("../images/image1-small.webp") no-repeat center center/cover;
+    background: url("../images/imagea-small.webp") no-repeat center center/cover;
     border-radius: 50%;
 }
 
 #serra-photo2-bg {
-    background: url("../images/image2-small.webp") no-repeat center center/cover;
+    background: url("../images/imageb-small.webp") no-repeat center center/cover;
     border-radius: 50%;
 }
 
@@ -362,6 +361,18 @@ p {
     line-height: 1;
 }
 
+.fa-square-instagram{
+    color: #e12375;
+}
+
+.fa-square-facebook{
+    color: #0c5eeb;
+}
+
+.fa-square-whatsapp{
+    color: #1fad70;
+} 
+
 /* Media query: small screens to better performance (smaller than 600px) */
 @media screen and (max-width: 600px) {
 
@@ -435,12 +446,12 @@ p {
     }
 
     #serra-photo1-bg {
-        background: url("../images/image1.webp") no-repeat center center/cover;
+        background: url("../images/imagea.webp") no-repeat center center/cover;
         border-radius: 50%;
     }
     
     #serra-photo2-bg {
-        background: url("../images/image2.webp") no-repeat center center/cover;
+        background: url("../images/imageb.webp") no-repeat center center/cover;
         border-radius: 50%;
     }
 
